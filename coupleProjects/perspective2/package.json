@@ -1,0 +1,56 @@
+{
+  "name": "guber",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "SergiosVision",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "presprite": "svgo -f images/icons/SVG-raw -o images/icons/SVG-optim"
+  },
+  "dependencies": {
+    "current-device": "^0.7.8",
+    "postcss-import": "^11.1.0",
+    "style-loader": "^0.20.3",
+    "swiper": "^4.3.3",
+    "vue": "^2.5.11",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-carousel": "^0.8.1",
+    "vue-meta": "^1.5.0",
+    "vue-social-sharing": "^2.3.3",
+    "vue-yandex-maps": "^0.7.11",
+    "ymaps": "^0.1.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "bowser": "^2.0.0-alpha.3",
+    "browser": "^0.2.6",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.8.3",
+    "polyfill": "^0.1.0",
+    "postcss-loader": "^2.1.4",
+    "sass-loader": "^6.0.7",
+    "svgo": "^1.0.5",
+    "vue-loader": "^13.0.5",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.4.4",
+    "vuex": "^3.0.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}

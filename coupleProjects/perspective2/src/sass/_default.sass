@@ -1,0 +1,682 @@
+html, body
+  //width: 100%
+  //min-width: 320px
+  min-height: 100%
+
+body
+  margin: 0 auto
+  padding: 0
+  position: relative
+  font-size: 16px
+  font-weight: normal
+  font-family: 'PT'
+  background-color: #F0F7FA
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+
+.t-wrapper
+  //display: flex
+  //flex-direction: column
+  //position: relative
+  overflow: hidden
+
+header, footer
+  //flex: 0 0 auto
+
+main
+  //flex: 1 1 auto
+  min-height: 100vh
+
+
+.t-mainList
+  list-style: none
+  padding: 0
+  margin: 0
+
+
+.t-btn
+  font-size: 14px
+  font-weight: bold
+  outline: none
+  background-color: transparent
+  color: #fff
+  display: block
+  border: 2px solid #fff
+  padding: 13px 16px
+  border-radius: 24px
+  cursor: pointer
+  &.t-moreBtn
+    padding: 22px 30px
+    font-size: 18px
+    font-weight: 400
+    color: #2574CF
+    border-radius: 32px
+    background-color: #fff
+    box-shadow: 0px 16px 16px rgba(37, 116, 207, 0.1), 0px 2px 4px rgba(37, 116, 207, 0.05)
+  &.t-rounded
+    width: 48px
+    height: 48px
+    background-color: #fff
+    border: none
+    border-radius: 50%
+
+.t-mainInsideContainer
+  //padding-top: 118px
+  position: relative
+  .t-container
+    position: relative
+    margin: -230px auto 0 auto
+    color: #000
+    z-index: 2
+    max-width: 1344px
+    width: 100%
+
+
+
+
+.saveBlock
+  bottom: 0
+  left: 0
+  overflow: hidden
+  position: fixed
+  right: 0
+  z-index: 10
+
+.mtCtrl
+  margin-top: 65px
+
+
+.t-insideBgHolder
+  width: 100%
+  height: 400px
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  text-align: center
+  .t-insideBgHolderOverlay
+    display: flex
+    justify-content: center
+    content: ''
+    width: 100%
+    height: 100%
+    background-color: rgba(37, 116, 207, .70)
+  .t-insideBgHolderTitle
+    margin-top: 56px
+    color: #fff
+    font-size: 32px
+    line-height: 41px
+    font-weight: bold
+    display: inline-flex
+    flex-direction: column
+    align-items: center
+    &:after
+      content: ''
+      height: 1px
+      width: 120%
+      background-color: #fff
+      margin-top: 8px
+      display: inline-block
+
+
+
+.t-mainTitle
+  position: relative
+  font-size: 32px
+  line-height: 41px
+  font-weight: 400
+  display: inline-flex
+  flex-direction: column
+  color: #272727
+  &:after
+    display: inline-block
+    content: ''
+    height: 1px
+    width: 70%
+    margin-top: 16px
+    background-color: #2574CF
+
+.t-middleTitle
+  color: #4085D5
+  font-size: 24px
+  line-height: 31px
+  font-weight: 900
+
+.t-mainCard
+  background-color: #fff
+  border-radius: 4px
+  padding: 40px 80px
+  &:not(:last-child)
+    margin-bottom: 48px
+
+.t-textHolder
+  font-size: 18px
+  line-height: 28px
+  color: #272727
+  opacity: .72
+
+
+.t-dialogOverlay
+  background-color: rgba(10, 31, 51, .90)
+
+.t-overlay
+  background-color: rgba(10, 31, 51, .90)
+  position: fixed
+  left: 0
+  right: 0
+  bottom: 0
+  top: 0
+  z-index: 999
+  .t-smallDialogClose
+    cursor: pointer
+    position: fixed
+    right: 48px
+    top: 48px
+    width: 48px
+    height: 48px
+    background-color: #ffffff
+    border-radius: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+    svg
+      path
+        fill: #2574CF
+      &.big
+        display: none
+
+.t-mainDialogWrapper
+  position: fixed
+  left: 0
+  right: 0
+  bottom: 0
+  top: 0
+  z-index: 999
+  overflow-y: auto
+  padding: 0 24px
+  .t-dialogOverlay
+    position: fixed
+    left: 0
+    right: 0
+    bottom: 0
+    top: 0
+  .t-mainDialog
+    position: relative
+    max-width: 1170px
+    width: 100%
+    height: auto
+    margin: 207px auto 138px auto
+    display: block
+    background-color: #fff
+    border-radius: 8px
+    &:after
+      content: ''
+      display: block
+      position: absolute
+      bottom: 0
+      right: 0
+      width: 124px
+      height: 80px
+      background-image: url("/images/logoBlue.png")
+      opacity: .3
+    .t-mainDialogClose
+      position: absolute
+      right: 30px
+      top: 30px
+      cursor: pointer
+      z-index: 101
+      
+    .t-mainDialogHeader
+      margin-bottom: 48px
+      .t-mainDialogMainImg
+        position: relative
+        width: 100%
+        height: 410px
+        &:before
+          content: ''
+          position: absolute
+          left: 0
+          right: 0
+          top: 0
+          bottom: 0
+          background: linear-gradient(232.78deg, rgba(42, 41, 41, 0.35) 0%, rgba(49, 49, 49, 0) 33.21%)
+        img
+          width: 100%
+          height: 100%
+          object-fit: cover
+          border-radius: 8px 8px 0 0
+    .t-mainDialogBody
+      padding: 0 64px
+      .t-mainDialogDateAndTag
+        margin-bottom: 24px
+        display: flex
+        align-items: center
+        .t-mainDialogTag
+          margin-right: 24px
+          text-align: center
+          span
+            display: inline-block
+            background-color: #2574CF
+            color: #fff
+            font-size: 12px
+            font-weight: 900
+            letter-spacing: 2px
+            padding: 9px 13px
+            border-radius: 24px
+            text-transform: uppercase
+        .t-mainDialogDate
+          svg
+            path
+              fill: rgba(0, 0, 0, .40)
+          span
+            font-size: 14px
+            text-transform: uppercase
+            line-height: 16px
+            color: rgba(0, 0, 0, .40)
+      .t-mainDialogTitleWrapper
+        margin-bottom: 32px
+        & > *
+          color: #424242
+          font-size: 32px
+          line-height: 41px
+          font-weight: 900
+      .t-mainDialogOutputContentWrapper
+        margin: 55px 0
+
+        .t-mainDialogOutputContent
+          max-width: 960px
+          p
+            font-size: 18px
+            line-height: 28px
+          a
+            color: #2574CF
+          blockquote
+            border-left: 16px solid
+            border-color: rgba(37, 116, 207, .20)
+            font-size: 18px
+            line-height: 28px
+            color: #000000
+            max-width: 760px
+            padding: 20px 0 20px 32px
+            a
+              font-size: 16px
+              line-height: 21px
+              font-weight: 400
+          img
+            max-width: 100%
+
+
+
+
+
+
+    .t-mainDialogFooter
+      padding: 0 64px 100px 64px
+
+
+
+
+.t-mainDialogSocialSharingWrapper
+  display: flex
+  align-items: center
+  &.t-mobile
+    align-items: flex-start
+    .sharingContainer
+      padding-top: 40px
+
+  .t-mainDialogSocialSharingWrapperIcon
+    display: flex
+    align-items: center
+    svg
+      margin-right: 17px
+  span
+    color: rgba(0, 0, 0, .40)
+    margin-right: 8px
+  ul
+    display: flex
+    align-items: center
+
+
+
+.t-accordionCard
+  width: 100%
+  box-shadow: 0px 4px 16px rgba(37, 116, 207, 0.09), 0px 2px 4px rgba(37, 116, 207, 0.04)
+  &:not(:last-child)
+    margin-bottom: 24px
+  &.is-opened
+    .t-accordionHeader
+      padding-top: 80px
+      .t-accordionArrowHolder
+        svg
+          transform: none
+    .t-mainTitle
+      &:after
+        opacity: 1
+        transition: .3s ease-out
+        transition-delay: .3s
+        width: 70%
+
+
+.t-accordionHeader
+  cursor: pointer
+  padding: 32px 60px 32px 60px
+  background-color: #fff
+  transition: .3s ease-out
+  display: flex
+  align-items: center
+  justify-content: space-between
+  .t-accordionArrowHolder
+    width: 40px
+    height: 40px
+    background-color: #fff
+    box-shadow: 0px 16px 16px rgba(37, 116, 207, 0.1), 0px 2px 4px rgba(37, 116, 207, 0.05)
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    svg
+      transition: .3s ease-out
+      transform: rotate(180deg)
+  .t-mainTitle
+    position: relative
+    color: #383838
+    font-weight: 900
+    font-size: 32px
+    line-height: 41px
+    max-width: 80%
+    &:after
+      opacity: 0
+      width: 0
+      position: absolute
+      left: 0
+      bottom: -8px
+      transition: .3s ease-out
+
+.t-accordionBody
+  padding: 0
+  transition: .3s ease-out
+  overflow: hidden
+  background-color: #fff
+  max-height: 2500px
+
+.t-accordionContent
+  padding: 0 60px 80px 60px
+
+.slide-right-enter-active
+  animation: slideRightIn .4s
+
+.slide-right-leave-active
+  animation: slideRightOut .4s
+
+@keyframes slideRightIn
+  from
+    transform: translateX(500%)
+  to
+    transform: translateX(0)
+
+@keyframes slideRightOut
+  from
+    transform: translateX(0)
+  to
+    transform: translateX(-500%)
+
+
+.slide-left-enter-active
+  animation: slideLeftIn .6s
+
+.slide-left-leave-active
+  animation: slideLeftOut .6s
+
+@keyframes slideLeftIn
+  from
+    transform: translateX(-500%)
+  to
+    transform: translateX(0)
+
+@keyframes slideLeftOut
+  from
+    transform: translateX(0)
+  to
+    transform: translateX(500%)
+
+
+
+.t-mapWrapper
+  margin-top: 8px
+  .t-showOnTheMap
+    font-size: .75rem
+    cursor: pointer
+    letter-spacing: 2px
+    color: rgba(37, 116, 207, .80)
+    text-transform: uppercase
+    display: inline-block
+    &:after
+      content: ''
+      display: block
+      width: 100%
+      height: 0
+      border-top: 1px dashed rgba(37, 116, 207, .80)
+      margin-top: 2px
+
+
+.mapSlide-enter-active
+  animation: showMap .3s ease
+
+.mapSlide-leave-active
+  animation: hideMap .3s ease
+
+
+
+
+
+@keyframes showMap
+  from
+    height: 0
+  to
+    height: 400px
+
+@keyframes hideMap
+  from
+    height: 400px
+  to
+    height: 0
+
+.t-yaMapHolder
+  overflow: hidden
+  margin-top: 30px
+  width: 100%
+  height: 400px
+
+
+
+//.mobileSharing-enter-active
+//  animation: showSharing .6s ease-in-out
+//
+//.mobileSharing-leave-active
+//  animation: hideSharing .6s ease-in-out
+//
+//
+//@keyframes showSharing
+//  from
+//    max-height: 0
+//  to
+//    max-height: 1000px
+//
+//@keyframes hideSharing
+//  from
+//    max-height: 1000px
+//  to
+//    max-height: 0
+
+
+.t-feedBackBtnWrapper
+  position: fixed
+  bottom: 48px
+  right: 48px
+  cursor: pointer
+  display: flex
+  align-items: center
+  justify-content: space-between
+  transition: .3s ease
+  height: 64px
+  max-width: 64px
+  box-sizing: border-box
+  padding: 0 18px
+  border-radius: 32px
+  z-index: 99
+  background-color: #fff
+  box-shadow: 0px 16px 16px rgba(37, 116, 207, 0.1), 0px 2px 4px rgba(37, 116, 207, 0.05)
+  overflow: hidden
+  .t-feedBackBtnIconHolder
+    width: 30px
+    height: 27px
+    margin-right: 17px
+  .t-feedBackBtnTitle
+    font-size: 18px
+    line-height: 21px
+    color: #fff
+    opacity: 0
+    transition: .3s ease
+    display: block
+
+
+.t-hamburgerMenu
+  cursor: pointer
+  width: 36px
+  height: 28px
+  position: relative
+  z-index: 301
+  transition: .3s ease
+  .t-hamburgerMenuLine
+    width: 100%
+    height: 4px
+    background-color: #fff
+    display: block
+    position: absolute
+    transition: .3s ease
+    border-radius: 4px
+    &:nth-child(1)
+      top: 0
+    &:nth-child(2)
+      top: 12px
+      width: 80%
+      left: 0
+      right: 0
+      margin: auto
+    &:nth-child(3)
+      top: 23px
+  &.t-hamburgerActive
+    .t-hamburgerMenuLine
+      &:nth-child(1)
+        transform: rotate(45deg)
+        top: 12px
+      &:nth-child(2)
+        opacity: 0
+        width: 0
+      &:nth-child(3)
+        transform: rotate(-45deg)
+        top: 12px
+
+
+.t-mobileCloseNews
+  display: flex
+  align-items: center
+  position: absolute
+  top: 21px
+  left: 24px
+  svg
+    margin-right: 8px
+  span
+    font-size: 14px
+    line-height: 18px
+    color: #383838
+
+.t-mainDialogFooter
+  .t-mobileCloseNews
+    position: static
+    margin-top: 40px
+
+
+
+.mainFade-leave-active
+  animation: mainFadeLeave .3s ease
+
+
+.mainFade-enter-active
+  animation: mainFadeEnter .3s ease
+
+
+@keyframes mainFadeEnter
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+@keyframes mainFadeLeave
+  from
+    opacity: 1
+  to
+    opacity: 0
+
+
+.slideMessageBox-enter-active
+  animation: slideMessageBoxEnter .3s ease
+
+.slideMessageBox-leave-active
+  animation: slideMessageBoxLeave .3s ease
+
+
+@keyframes slideMessageBoxEnter
+  from
+    opacity: 0
+    transform: translateX(100%)
+  to
+    transform: translateX(0)
+    opacity: 1
+
+@keyframes slideMessageBoxLeave
+  from
+    opacity: 1
+    transform: translateX(0)
+  to
+    transform: translateX(100%)
+    opacity: 0
+
+
+.t-messageBoxWrapper
+  position: fixed
+  right: 30px
+  top: 90px
+  max-width: 282.75px
+  width: 100%
+  padding: 18px 54px 18px 18px
+  background-color: #fff
+  box-shadow: -15px 18.75px 45px rgba(96, 121, 158, 0.2)
+  border-radius: 18px
+  z-index: 1000
+  p
+    color: #333
+    font-size: 12px
+  .t-messageBoxClose
+    position: absolute
+    top: 12px
+    right: 12px
+    cursor: pointer
+    width: 30px
+    height: 30px
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+
+.accordion-enter-active
+  .t-aboutOrganizationCarouselWrapper
+    opacity: 1
+.accordion-leave-active
+  .t-aboutOrganizationCarouselWrapper
+    opacity: 0
+

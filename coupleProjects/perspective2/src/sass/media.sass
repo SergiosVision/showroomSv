@@ -1,0 +1,1056 @@
+@media (max-height: 1100px)
+  .t-carousel
+    .VueCarousel-wrapper
+      height: 100vh
+      img
+        height: 100vh
+
+
+@media (min-width: 768px)
+
+
+  .t-mainPageHolder
+    .t-container
+      .t-aboutCompany
+        .t-rightSide
+          .t-watchAll
+            span, svg path
+              transition: .3s ease
+            &:hover
+              span
+                color: #2AC2E8
+              svg
+                path
+                  stroke: #2AC2E8
+
+  .t-pagination
+    .swiper-pagination-bullet
+      transition: background-color .3s ease
+      &:hover
+        background-color: #2AC2E8
+    .swiper-pagination-bullet-active
+      &:hover
+        background-color: #2574CF
+        pointer-events: none
+
+  .t-mainDialogWrapper
+    .t-mainDialog
+      .t-mainDialogClose
+        path
+          transition: .3s ease
+        &:hover
+          path
+            fill: #2AC2E8
+
+
+  .t-overlay
+    .t-smallDialogClose
+      svg
+        path
+          transition: .3s ease
+      &:hover
+        svg
+          path
+            fill: #2AC2E8
+
+  .t-lightBoxInside
+    .t-lightBoxOverlay
+      .t-times
+        svg
+          path
+            transition: .3s ease
+        &:hover
+          svg
+            path
+              fill: #2AC2E8
+
+  header
+    .t-navigation
+      ul
+        li
+          a
+            transition: .3s ease
+          &:hover
+            a
+              color: #2AC2E8
+
+  .t-btn
+    &.t-moreBtn
+      transition: .3s ease
+      &:hover
+        background-color: #2AC2E8
+        color: #fff
+        border-color: #2AC2E8
+
+
+  .t-lightBoxWrapper
+    .t-lightBoxControls
+      .t-lightBoxBtn:not(.t-disable)
+        svg
+          path
+            transition: .3s ease
+        &:hover
+          svg
+            path
+              stroke: #2AC2E8
+
+  .t-mainPageCarousel
+    .t-mainPageCarouselCard
+      .t-mainPageCarouselInfo
+        .t-mainPageMore
+          a.t-btn
+            transition: .3s ease
+            &:hover
+              background-color: #fff
+              color: #2574CF
+            &:active
+              background-color: #2AC2E8
+              border-color: #2AC2E8
+              color: #fff
+
+  .t-usefulCard
+    .t-useFulCardReadMoreWrInside
+      svg
+        path
+          transition: .3s ease
+      span
+        transition: .3s ease
+      &:hover
+        svg
+          path
+            stroke: #2AC2E8!important
+        span
+          color: #2AC2E8!important
+
+  .t-newsCard
+    .t-newsCardReadMore
+      svg
+        path
+          transition: .3s ease
+      span
+        transition: .3s ease
+      &:hover
+        svg
+          path
+            stroke: #2AC2E8!important
+        span
+          color: #2AC2E8!important
+
+  .t-servicesCard
+    .t-servicesCardReadMore
+      svg
+        path
+          transition: .3s ease
+      span
+        transition: .3s ease
+    &:hover
+      .t-servicesCardReadMore
+        svg
+          path
+            stroke: #2AC2E8!important
+        span
+          color: #2AC2E8!important
+
+
+
+  .t-feedBackBtnWrapper
+    &:hover
+      max-width: 271px
+      border-radius: 32px
+      .t-feedBackBtnIconHolder
+        svg
+          path
+            fill: #2AC2E8
+      .t-feedBackBtnTitle
+        color: #2AC2E8
+        opacity: 1
+        transition-delay: .3s
+    &:active
+      background-color: #2AC2E8
+      .t-feedBackBtnIconHolder
+        svg
+          path
+            fill: #fff
+      .t-feedBackBtnTitle
+        color: #fff
+
+  .t-mainDialogSocialSharingWrapper
+    span
+      &[data-link]
+        cursor: pointer
+        svg
+          .icon
+            transition: .3s ease
+
+      &:hover
+        &[data-link='#share-facebook']
+          svg
+            .icon
+              fill: #3B5999
+        &[data-link='#share-odnoklassniki']
+          svg
+            .icon
+              fill: #F68634
+        &[data-link='#share-vk']
+          svg
+            .icon
+              fill: #4C75A3
+        &[data-link='#share-twitter']
+          svg
+            .icon
+              fill: #55ACEE
+
+        &[data-link='#share-googleplus']
+          svg
+            .icon
+              fill: #DD4B39
+
+
+
+@media (max-width: 1365px)
+  .t-aboutCompany
+    padding: 40px
+
+
+
+  .t-mainPageHolder
+    .t-container
+      .t-numbersAndCount
+        padding: 80px 40px
+
+      .t-leftSide
+        .t-numberCard
+          &:nth-child(n)
+            padding: 24px 24px 24px 0
+          &:nth-child(2n)
+            padding: 24px
+
+
+  .t-mainPageHolder
+    .t-container
+      .t-ourPrinciples
+        padding: 40px
+        .t-principlesCardHolder
+          .t-principlesCard
+            &:nth-child(n)
+              padding: 48px 48px 48px 0
+            &:nth-child(2n)
+              padding: 48px
+              .t-principlesCardNumber
+                left: 36px
+
+@media (max-width: 1199px)
+  header
+    .t-callAndQuestion
+      margin-left: 64px
+
+  .t-mainPageHolder
+    .t-container
+      .t-aboutCompany
+        .t-mainTitle
+          margin-bottom: 32px
+        .t-mainSidesHolder
+          .t-rightSide
+            display: none
+          .t-leftSide
+            margin: 0
+            width: 100%
+            padding: 0
+            &:after
+              display: none
+
+
+      .t-ourPrinciples
+        .t-mainTitle
+          margin-bottom: 32px
+        .t-principlesCardHolder
+          .t-principlesCard
+            &:nth-child(n)
+              padding: 24px 24px 24px 0
+            &:nth-child(2n)
+              padding: 24px
+
+
+      .t-numbersAndCount
+        .t-mainTitle
+          margin-bottom: 32px
+        flex-direction: column
+        .t-rightSide
+          padding: 0
+          margin-top: 24px
+
+      .t-lightBoxWrapper
+        display: flex
+        justify-content: center
+        .t-lightBoxCard
+          width: 80%
+          .t-lightBoxImg
+            height: calc(70vh / 1.6)
+
+
+@media (max-width: 1023px)
+  header
+    .t-headerRightSide
+      position: fixed!important
+      right: 0
+      top: 122px
+      z-index: 100
+      background-color: #fff
+      flex-direction: column
+      padding: 40px 24px
+      border-radius: 4px 0 0 4px
+      .t-navigation
+        order: 1
+        ul
+          flex-direction: column
+          li
+            margin: 0
+            &:not(:last-child)
+              margin-bottom: 24px
+            a
+              color: #000
+      .t-callAndQuestion
+        margin: 0 0 26px 0
+      .t-numberHolder
+        order: 0
+        .t-number, .t-numberBottomTitle
+          color: #000
+          opacity: 1!important
+
+
+  .t-mainPageCarousel
+    .t-mainPageCarouselCard
+      .t-mainPageCarouselInfo
+        left: 50%
+        transform: translate(-50%, -50%)
+        max-width: 70%
+        height: auto
+
+
+
+  .t-wrapperUseful
+    .t-container
+      .t-usefulCardsHolder
+        .t-usefulCard
+          flex-direction: column
+          height: 420px
+          .t-usefulCardImgHolder
+            width: 100%
+            height: 250px
+          .t-usefulCardInfoHolder
+            width: 100%
+            height: calc(100% - 250px)
+            padding: 24px 24px 0 24px
+            .t-usefulCardInfo
+              margin-bottom: 16px
+              height: auto
+              min-height: 63px
+            .t-usefulCardReadMore
+              height: 47%
+              display: flex
+              justify-content: center
+              align-items: center
+              .t-useFulCardReadMoreWrInside
+                padding-top: 0
+
+  .t-wrapperNews
+    .t-container
+      .t-newsCardsHolder
+        .t-newsCard
+          @include bGrid(1, 0)
+          &:not(:last-child)
+            margin-bottom: 48px
+
+  .t-wrapperServices
+    .t-container
+      .t-servicesCardsHolder
+        .t-servicesCard
+          height: 320px
+
+
+
+@media (max-width: 1023px) and (min-width: 768px)
+  .headerMenu-leave-active
+    animation: headerMenuLeave .3s ease
+
+
+  .headerMenu-enter-active
+    animation: headerMenuEnter .3s ease
+
+
+  @keyframes headerMenuEnter
+    from
+      transform: translate3d(100%, 0, 0)
+    to
+      transform: translate3d(0, 0, 0)
+
+  @keyframes headerMenuLeave
+    from
+      transform: translate3d(0, 0, 0)
+    to
+      transform: translate3d(100%, 0, 0)
+
+
+
+@media (max-width: 767px)
+
+  .t-messageBoxWrapper
+    left: 0
+    max-width: 100%
+
+
+  .t-contactsPeoplesDynamic
+    .swiper-pagination-bullet
+      width: 6px
+      height: 6px
+      background-color: #2574CF
+
+  .t-mainPageCarousel
+    height: calc(100vh - 64px)
+    img
+      height: calc(100vh - 64px)!important
+
+  body
+    height: 100vh
+
+  .t-fullWidthContainer404
+    .t-404Content
+      .t-404
+        font-size: 64px
+        line-height: 83px
+      .t-404Text
+        font-size: 16px
+        line-height: 21px
+        margin-bottom: 39px
+        text-align: center
+      .t-404ReturnBack
+        height: 64px
+        width: 217px
+        padding: 0
+        display: flex
+        justify-content: center
+        align-items: center
+
+
+
+  .t-smallDialogWrapper
+    .t-overlay
+      .t-smallDialogClose
+        display: none
+
+    .t-smallDialogClose
+      position: fixed
+      bottom: 0
+      left: 0
+      right: 0
+      height: 66px
+      border-radius: 0
+      background-color: #fff
+      z-index: 9999
+      display: flex
+      justify-content: center
+      align-items: center
+      box-shadow: 0px -4px 16px rgba(37, 116, 207, 0.09), 0px -2px 4px rgba(37, 116, 207, 0.04)
+      svg
+        &.small
+          display: none
+        &.big
+          display: block
+
+  header
+    position: fixed!important
+    top: inherit!important
+    z-index: 9999999
+    .t-headerRightSide
+      position: fixed!important
+
+
+  .t-mainDialogWrapper
+
+    .t-mainDialog
+      margin: 0
+      border-radius: 0
+      height: auto
+      min-height: 100%
+      //margin-bottom: 78px
+      position: absolute
+      left: 0
+      right: 0
+      top: 0
+      &:after
+        display: none
+      .t-mainDialogClose
+        //display: none
+      .t-mainDialogBody
+        padding: 0 24px
+        .t-mainDialogOutputContentWrapper
+          .t-mainDialogOutputContent
+            blockquote
+              transform: translateX(-24px)
+        .t-mainDialogTitleWrapper
+          & > *
+            font-size: 24px
+            line-height: normal
+      .t-mainDialogFooter
+        padding: 0 24px 48px 24px
+
+
+
+      .t-mainDialogHeader
+        margin: 0 0 24px 0
+        padding-top: 64px
+        background-color: #fff
+        .t-mainDialogMainImg
+          height: 360px
+          img
+            border-radius: 0
+
+  .t-mainDialogSocialSharingWrapper
+    flex-direction: column
+
+  .t-feedBackBtnWrapper
+    width: 32px
+    height: 32px
+    bottom: 86px
+    right: 32px
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 0
+    .t-feedBackBtnIconHolder
+      width: 16px
+      height: 16px
+      margin-right: 0!important
+      svg
+        width: 16px
+        height: 16px
+
+    .t-feedBackBtnTitle
+      display: none
+
+  .t-wrapper
+    padding-bottom: 66px
+
+  .headerMenu-leave-active
+    animation: headerMenuLeave .3s ease
+
+
+  .headerMenu-enter-active
+    animation: headerMenuEnter .3s ease
+
+
+  @keyframes headerMenuEnter
+    from
+      transform: translate3d(0, calc(100% + 66px), 0)
+    to
+      transform: translate3d(0, 0, 0)
+
+  @keyframes headerMenuLeave
+    from
+      transform: translate3d(0, 0, 0)
+    to
+      transform: translate3d(0, calc(100% + 66px), 0)
+
+
+
+  header
+    padding: 18px 14px 18px 12px
+    position: fixed
+    left: 0
+    right: 0
+    bottom: 0
+    top: auto
+    z-index: 301
+    &.t-mobileMenuActive
+      .t-hamburgerMenu
+        right: 50%
+        transform: translateX(50%)
+      .t-headerLeftSide
+        .t-logo
+          pointer-events: none
+          opacity: 0
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      background-color: #fff
+      transition: .3s ease
+      z-index: 301
+      box-shadow: 0px -4px 16px rgba(37, 116, 207, 0.09), 0px -2px 4px rgba(37, 116, 207, 0.04)
+    .t-headerLeftSide
+      z-index: 301
+      .t-logo
+        transition: .3s ease
+        .t-logoLeftP
+          width: 40px
+          height: 25px
+        .t-logoRightP
+          width: 130px
+          height: 30px
+          margin-left: 43px
+          svg
+            width: 100%
+            height: 100%
+
+    .t-headerRightSide
+      position: fixed
+      right: 0
+      top: 0
+      bottom: 66px
+      left: 0
+      background-color: #fff
+      flex-direction: column
+      padding: 40px 24px
+      border-radius: 0
+      .t-navigation
+        order: 1
+        ul
+          flex-direction: column
+          li
+            margin: 0
+            &:not(:last-child)
+              margin-bottom: 24px
+            a
+              color: #000
+      .t-callAndQuestion
+        margin: 0 0 26px 0
+      .t-numberHolder
+        z-index: 301
+        order: 0
+        .t-number, .t-numberBottomTitle
+          color: #000
+          opacity: 1!important
+
+
+  .t-mainPageCarousel
+    .t-mainPageCarouselCard
+      .t-mainPageCarouselInfo
+        transform: translate(-50%, -50%)
+        max-width: 80%
+        padding: 24px
+        .t-mainPageDescriptionWrapper
+          p
+            -webkit-line-clamp: 3
+
+
+  footer
+    .t-footerTop
+      display: none
+
+
+  .t-mainPageHolder
+    .t-container
+
+
+      .t-numbersAndCount
+        .t-rightSide
+          display: none
+        .t-numberCardsHolder
+          flex-direction: column
+          width: 100%
+          .t-numberCard
+            width: 100%
+            padding: 0!important
+            &:not(:last-child)
+              margin-bottom: 40px
+              border: none
+
+      .t-ourPrinciples
+        .t-principlesCardHolder
+          flex-direction: column
+          .t-principlesCard
+            width: 100%
+            border: none!important
+            padding: 48px 0 0 0!important
+            min-height: inherit
+            &:not(:last-child)
+              margin-bottom: 24px
+            .t-principlesCardNumber
+              left: 0!important
+
+      .t-lightBoxWrapper
+        display: flex
+        justify-content: center
+        .t-lightBoxCard
+          width: 100%
+          .t-lightBoxImg
+            height: calc(50vh / 1.6)
+
+
+
+
+  .t-mainInsideContainer
+    padding-top: 0
+    margin-bottom: 65px
+    .t-container
+      margin-top: 0!important
+      padding-bottom: 0
+      .t-loadedData
+        .t-moreBtn
+          margin-top: 61px!important
+    .t-insideBgHolder
+      margin-bottom: 27px
+      height: 360px
+      .t-insideBgHolderOverlay
+        display: flex
+        justify-content: center
+        align-items: center
+        .t-insideBgHolderTitle
+          margin-top: 0
+          font-size: 32px
+          &:after
+              display: none
+
+
+  .t-wrapperUseful
+    margin-top: 0
+    .t-container
+      .t-usefulCardsHolder
+        flex-direction: column
+        align-items: center
+        .t-usefulCard
+          @include bGrid(1, 0)
+          width: 90%
+          &:not(:last-child)
+            margin-bottom: 24px
+          .t-usefulCardInfoHolder
+            padding: 16px 0 0 0
+            .t-usefulCardInfo
+              padding: 16px
+              margin-bottom: 0
+            .t-usefulCardReadMore
+              padding-top: 24px
+
+  .t-wrapperNews
+    margin-top: 0
+    .t-container
+      .t-newsCardsHolder
+        flex-direction: column
+        align-items: center
+        .t-newsCard
+          @include bGrid(1, 0)
+          width: 90%
+          height: 287px
+          &:not(:last-child)
+            margin-bottom: 24px
+          .t-newsCardInfo
+            bottom: 24px
+            padding: 0 40px
+            .t-newsCardTitleAndDescription
+              padding: 22px 0 15px 0
+              .t-newsCardTitleMain
+                margin-bottom: 14px
+                & > *
+                  line-height: 17px
+                  font-size: 15px
+              .t-newsCardDescriptionMain
+                & > *
+                  line-height: 19px
+                  font-size: 12px
+            .t-newsCardDate
+              span
+                font-size: 11px
+                line-height: 13px
+
+            .t-newsCardReadMore
+              span
+                font-size: 11px
+
+
+
+
+  .t-accordionCard
+    &.is-opened
+      .t-accordionHeader
+        padding: 17px 16px 12px 16px
+
+    .t-accordionHeader
+      padding: 16px
+      .t-mainTitle
+        font-size: 16px
+        line-height: 21px
+        font-weight: 400
+      .t-accordionArrowHolder
+        width: 32px
+        height: 32px
+        svg
+          width: 10px
+          height: 10px
+
+
+  .t-wrapperContacts
+    margin-top: 0
+    .t-container
+      .t-contactsCardsHolder
+        .t-accordionCard
+          &:not(:last-child)
+            margin-bottom: 16px
+        .t-accordionContent
+          padding: 12px 24px 32px 24px
+
+
+      .t-aboutOrganizationMainInfo
+        margin-bottom: 0
+        .t-aboutOrganizationInfoHolder
+          font-size: 16px
+          line-height: 25px
+          color: rgba(0, 0, 0, .60)
+          margin-bottom: 35px
+          & > *
+            font-size: 16px
+            line-height: 25px
+            color: rgba(0, 0, 0, .60)
+        .t-space
+          .t-aboutOrganizationContent
+            font-size: 16px
+            line-height: 21px
+
+
+      .t-aboutOrganizationCarouselWrapper
+        &.noCarousel
+          .t-carouselCard
+            width: 240px!important
+            margin: 0!important
+        .swiper-container
+          overflow: hidden!important
+        .swiper-slide
+          display: flex
+          justify-content: center
+        .swiper-pagination
+          bottom: auto!important
+          top: 291px
+        .t-carouselCard
+          width: 240px
+          .t-carouselCardImgWrapper
+            height: 283px
+            margin-bottom: 30px
+
+
+  .t-wrapperServices
+    margin-top: 0
+    .t-container
+      .t-servicesCardsHolder
+        flex-direction: column
+        align-items: center
+        .t-servicesCard
+          @include bGrid(1, 0)
+          width: 90%
+          height: 435px
+          &:not(:last-child)
+            margin-bottom: 24px
+          .t-servicesCardInfo
+            padding: 16px 0 0 0
+            .t-servicesCardCategory
+              padding: 0 16px
+            .t-servicesCardTitle
+              padding: 0 16px
+              & > *
+                font-size: 18px
+                line-height: normal
+            .t-servicesCardReadMore
+              padding: 30px
+              background-color: #fff
+              display: flex
+              align-items: center
+              justify-content: center
+              svg
+                path
+                  stroke: #2574CF
+              span
+                color: #2574CF
+
+
+
+@media (max-width: 539px)
+  .t-yaMapHolder
+    height: 300px
+
+
+  .t-smallDialogWrapper
+    padding: 0
+    .t-smallDialogCard
+      width: 100%
+      max-width: 100%
+      margin: 0 0 66px 0
+      border-radius: 0
+
+
+
+  .t-mainInsideContainer
+    .t-insideBgHolder
+      height: 180px
+
+
+  .t-wrapperContacts
+    margin-top: 0
+    .t-container
+      .t-contactsCardsHolder
+        .t-accordionContent
+          padding: 24px 16px 32px 16px
+
+
+  .t-wrapperUseful
+    .t-container
+      .t-usefulCardsHolder
+        .t-usefulCard
+          width: 272px
+          height: auto
+          .t-usefulCardImgHolder
+            height: 181px
+          .t-usefulCardInfoHolder
+            height: calc(100% - 181px)
+            padding: 16px 0 24px 0
+
+  .t-wrapperNews
+    .t-container
+      .t-newsCardsHolder
+        .t-newsCard
+          width: 272px
+          height: 244px
+          background-color: #fff
+          .t-newsCardInfo
+            position: absolute
+            padding: 16px 28px 69px 16px
+            bottom: 0
+            top: 0
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
+            .t-newsCardMainBigDate
+              .t-newsCardDate
+                span
+                  font-size: 11px
+                  line-height: 13px
+            .t-newsCardTitleMain
+              order: 1
+              & > *
+                line-height: 19px
+                font-size: 16px
+            .t-newsCardTitleAndDescription
+              padding: 12px 0 0 0
+              .t-newsCardDescriptionMain
+                display: none
+            .t-newsCardDateAndReadMore
+              margin: 0!important
+            .t-newsCardDateAndReadMore
+              margin: 0 0 16px 0
+              order: 0
+              .t-newsCardReadMore
+                position: absolute
+                left: 50%
+                transform: translateX(-50%)
+                bottom: 24px
+                span
+                  color: #2574CF
+                svg
+                  path
+                    stroke: #2574CF
+
+
+          .t-newsCardImgWrapper
+            height: 181px
+
+
+  .t-wrapperServices
+    .t-container
+      .t-servicesCardsHolder
+        .t-servicesCard
+          width: 272px
+          height: 244px
+          .t-servicesCardInfo
+            .t-servicesCardCategory
+              & > *
+                font-size: 13px
+            .t-servicesCardTitle
+              max-width: 228px
+              padding-right: 0
+              & > *
+                font-size: 16px
+              h3
+                max-height: 73px
+                -webkit-line-clamp: 4
+            .t-servicesCardReadMore
+              padding: 0 30px
+              height: 63px
+          &:not(:last-child)
+            margin-bottom: 24px
+
+
+
+
+  .t-mainPageCarousel
+    .t-mainPageCarouselCard
+      .t-mainPageCarouselInfo
+        transform: translate(-50%, -50%)
+        max-width: 95%
+        padding: 24px
+        .t-mainPageDescriptionWrapper
+          p
+            -webkit-line-clamp: 3
+
+  .t-mainPageHolder
+    .t-container
+      .t-lightBoxWrapper
+        .t-lightBoxCard
+          .t-lightBoxImg
+            height: calc(35vh / 1.6)!important
+
+
+      .t-aboutCompany
+        .t-mainSidesHolder
+          .t-leftSide
+            .t-textHolder
+              & > *
+                font-size: 16px
+            ul
+              li
+                font-size: 16px
+
+      .t-ourPrinciples
+        .t-principlesCardHolder
+          .t-principlesCard
+            .t-principlesCardText
+              padding-left: 0
+              & > *
+                font-size: 16px
+
+
+      .t-numbersAndCount
+        .t-numberCardsHolder
+          .t-numberCard
+            .t-numberCardCountWrapper
+              & > *
+                font-size: 54px
+                line-height: 70px
+            .t-numberCardTextWrapper
+              & > *
+                font-size: 16px
+
+
+      .t-mainCard
+        padding: 40px 24px
+
+  .t-mainTitle
+    font-size: 24px
+    line-height: 31px
+
+
+
+  .t-mainDialogWrapper
+    .t-mainDialog
+      .t-mainDialogBody
+        .t-mainDialogTitleWrapper
+          & > *
+            font-size: 16px
+            line-height: 21px
+      .t-mainDialogHeader
+        .t-mainDialogMainImg
+          height: 180px
+
+
+
+

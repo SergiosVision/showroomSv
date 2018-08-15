@@ -1,0 +1,120 @@
+header
+  position: absolute
+  left: 0
+  top: 0
+  right: 0
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 35px 48px
+  z-index: 999
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.49) 0%, rgba(76, 76, 76, 0) 100%)
+  .android
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 100%
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      background-color: #fff
+      transition: .3s ease
+      z-index: 250
+      box-shadow: 0px -4px 16px rgba(37, 116, 207, 0.09), 0px -2px 4px rgba(37, 116, 207, 0.04)
+  .t-headerLeftSide
+    display: flex
+    align-items: center
+  .t-headerRightSide
+    display: flex
+    align-items: center
+  .t-logo
+    cursor: pointer
+    display: flex
+    align-items: center
+    .t-logoLeftP
+      width: 74px
+      height: 48px
+      background-image: url('/images/logoWhite.png')
+      background-position: center
+      background-size: contain
+      background-repeat: no-repeat
+    .t-logoRightP
+      margin-left: 8px
+      svg
+        path
+          fill: #fff
+  .t-navigation
+    .router-link-exact-active
+        a
+          color: #2574CF!important
+          cursor: default
+    ul
+      display: flex
+      align-items: center
+      li
+        &:not(:last-child)
+          margin-right: 40px
+        a
+          color: #fff
+          text-decoration: none
+          font-size: 18px
+          line-height: 21px
+          font-weight: bold
+  .t-callAndQuestion
+    margin-left: 80px
+    display: flex
+    align-items: center
+    .t-askQuestionBtn
+      margin-right: 56px
+    .t-numberHolder
+      display: flex
+      flex-direction: column
+      .t-number
+        font-size: 18px
+        line-height: 21px
+        font-weight: 400
+        margin-bottom: 4px
+        color: #fff
+      .t-numberBottomTitle
+        color: #fff
+        font-size: 12px
+        line-height: 14px
+        letter-spacing: 1px
+        text-transform: uppercase
+
+  &.t-headerWhite
+    background: #fff
+    position: static
+    .t-hamburgerMenu
+      .t-hamburgerMenuLine
+        background-color: #2574CF
+    .t-logo
+      .t-logoLeftP
+        background-image: url('/images/logoBlue.png')
+      .t-logoRightP
+        svg
+          path
+            fill: #2574CF
+    .t-navigation
+      ul
+        li
+          a
+            color: #000
+    .t-callAndQuestion
+      .t-askQuestionBtn
+        color: #000
+        border-color: #2574CF
+      .t-numberHolder
+        .t-number
+          color: #000
+        .t-numberBottomTitle
+          color: #000
+          opacity: .4
+
+
+

@@ -1,0 +1,551 @@
+.t-mainPageHolder
+  .t-container
+    padding: 48px 0
+    max-width: 1344px
+    width: 100%
+    margin: auto
+    .t-aboutCompany
+      .t-mainTitle
+        margin-bottom: 32px
+      .t-mainSidesHolder
+        display: flex
+      .t-leftSide
+        margin-top: 48px
+        padding-right: 56px
+        position: relative
+        &:after
+          content: ''
+          position: absolute
+          top: 0
+          bottom: 0
+          right: 0
+          height: 100%
+          width: 1px
+          background-color: #000
+          opacity: .1
+        .t-textHolder
+          p
+            font-size: 18px
+            line-height: 28px
+            color: #272727
+            opacity: .72
+          ul
+            list-style: none
+            margin: 0
+            padding: 0
+            li
+              position: relative
+              font-size: 18px
+              line-height: 28px
+              color: #272727
+              opacity: .72
+              max-width: 720px
+              padding-left: 42px
+              &:before
+                position: absolute
+                left: 0
+                top: 0
+                bottom: 0
+                margin: auto
+                display: block
+                content: url("/images/icons/SVG-optim/Vector.svg")
+              &:not(:last-child)
+                margin-bottom: 42px
+      .t-rightSide
+        margin-top: 48px
+        padding-left: 56px
+        .t-middleTitle
+          margin-bottom: 24px
+        .t-watchAll
+          margin-top: 24px
+          display: inline-flex
+          align-items: center
+          cursor: pointer
+          span
+            color: #4085D5
+            margin-right: 20px
+            font-size: 18px
+            line-height: 21px
+
+    .t-numbersAndCount
+      display: flex
+      padding: 88px 80px
+      .t-mainTitle
+        margin-bottom: 4px
+      .t-numberCardsHolder
+        display: flex
+        flex-wrap: wrap
+        .t-numberCard
+          padding: 48px
+          @include bGrid(2, 0)
+          &:nth-child(1)
+            border-right: 1px solid #E9E9E9
+            border-bottom: 1px solid #E9E9E9
+            padding-left: 0
+          &:nth-child(2)
+            border-bottom: 1px solid #E9E9E9
+          &:nth-child(3)
+            border-right: 1px solid #E9E9E9
+            padding-left: 0
+          .t-numberCardCountWrapper
+            & > *
+              color: #2574CF
+              opacity: .4
+              font-size: 72px
+              line-height: 93px
+              font-weight: 900
+          .t-numberCardTextWrapper
+            & > *
+              color: #272727
+              opacity: .72
+              font-size: 18px
+              line-height: 28px
+              word-wrap: break-word
+      .t-rightSide
+        padding-left: 64px
+        .t-middleTitle
+          margin-bottom: 21px
+
+    .t-ourPrinciples
+      .t-principlesCardHolder
+        padding: 0
+        display: flex
+        flex-wrap: wrap
+        .t-principlesCard
+          position: relative
+          padding: 48px 73px
+          min-height: 264px
+          @include bGrid(2, 0)
+          &:nth-child(1)
+            border-bottom: 1px solid #E9E9E9
+          &:nth-child(2)
+            border-bottom: 1px solid #E9E9E9
+
+          &:nth-child(even)
+            .t-principlesCardNumber
+              left: 72px
+          &:nth-child(odd)
+            border-right: 1px solid #E9E9E9
+            padding-left: 0
+          .t-principlesCardText
+            padding-left: 48px
+            & > *
+              color: #272727
+              opacity: .72
+              font-size: 18px
+              line-height: 28px
+              font-weight: 400
+              word-wrap: break-word
+          .t-principlesCardNumber
+            position: absolute
+            left: 0
+            top: 0
+            color: #EBF5FF
+            font-size: 160px
+            line-height: 207px
+            font-weight: 900
+
+
+
+.t-lightBoxWrapper
+  .t-lightBoxCard
+    width: 368px
+    .t-lightBoxCardInner
+      overflow: hidden
+      padding-bottom: 10px
+    .t-lightBoxTape
+      display: inline-flex
+      transition: transform .4s ease
+    .t-lightBoxImgAndInfo
+      width: 368px
+    .t-lightBoxImg
+      height: 245px
+      cursor: pointer
+      img
+        width: 100%
+        height: 100%
+        object-fit: cover
+    .lightBoxInfo
+      padding: 16px 24px
+      background-color: #fff
+      box-shadow: 0px 4px 16px rgba(37, 116, 207, 0.09), 0px 2px 4px rgba(37, 116, 207, 0.04)
+      min-height: 65px
+      & > *
+        color: #000
+        opacity: .64
+        font-size: 14px
+        line-height: 16px
+  .t-lightBoxControls
+    display: flex
+    align-items: center
+    justify-content: space-between
+    .t-lightBoxLeftAndRight
+      display: flex
+      align-items: center
+    .t-lightBoxBtn
+      border: none
+      outline: none
+      background-color: #fff
+      width: 36px
+      height: 36px
+      border-radius: 50%
+      cursor: pointer
+      box-shadow: 0px 16px 16px rgba(37, 116, 207, 0.1), 0px 2px 4px rgba(37, 116, 207, 0.05)
+    .t-lightBoxLeft
+      margin-right: 16px
+
+.t-lightBoxInside
+  position: fixed
+  left: 0
+  right: 0
+  bottom: 0
+  top: 0
+  z-index: 100
+  .t-lightBoxOverlay
+    width: 100%
+    height: 100%
+    background-color: rgba(10, 31, 51, .90)
+    .t-times
+      position: absolute
+      top: 40px
+      right: 40px
+      display: flex
+      align-items: center
+      justify-content: center
+      z-index: 100
+    .t-lightBoxInsideWrapperImg
+      height: 100%
+      width: 100%
+      #t-lightBoxTrG
+        height: 100%
+        width: 100%
+        position: relative
+      img
+        max-width: 80%
+        object-fit: cover
+        max-height: calc(100vh - 200px)
+        position: absolute
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+        margin: auto
+    .t-lightBoxInsideButtons
+      .t-lightBoxInsideBtn
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        background-color: #fff
+        width: 48px
+        height: 48px
+        border-radius: 50%
+        outline: none
+        border: none
+        cursor: pointer
+        &:before
+          content: ''
+          position: absolute
+          width: 100%
+          height: 100%
+          background: url(/images/icons/SVG-optim/sliderArrow.svg) no-repeat center
+          display: block
+          left: 0
+          right: 0
+          bottom: 0
+          top: 0
+          margin: auto
+        &.t-lightBoxBtnPrev
+          left: 40px
+          &:before
+            transform: rotate(180deg)
+        &.t-lightBoxBtnNext
+          right: 40px
+
+.t-disable
+  opacity: .35
+  cursor: default!important
+
+
+.t-carousel
+  .VueCarousel-wrapper
+    height: 100vh
+  img
+    width: 100%
+    height: 100vh
+    object-position: top
+    object-fit: cover
+
+.t-aboutOrganizationCarouselWrapper
+  .swiper-container
+    overflow: inherit!important
+
+.swiper-button-next, .swiper-button-prev
+  background: #fff!important
+  width: 48px!important
+  height: 48px!important
+  border-radius: 50%
+  margin-top: -115px!important
+  box-shadow: 0px 16px 16px rgba(37, 116, 207, 0.1), 0px 2px 4px rgba(37, 116, 207, 0.05)
+  z-index: 100!important
+  position: relative
+  &:before
+    content: ''
+    position: absolute
+    width: 100%
+    height: 100%
+    background: url(/images/icons/SVG-optim/sliderArrow.svg) no-repeat center
+    display: block
+    left: 0
+    right: 0
+    bottom: 0
+    top: 0
+    margin: auto
+
+.swiper-button-prev
+  left: -25px!important
+  &:before
+    transform: rotate(180deg)
+.swiper-button-next
+  right: 20px!important
+
+
+.t-mainPageCarousel
+  width: 100%
+  height: 100vh
+  .t-mainPageCarouselCard
+    position: relative
+    img
+      width: 100%
+      height: 100vh
+      object-fit: cover
+    .t-mainPageCarouselInfo
+      position: absolute
+      left: 144px
+      top: 50%
+      transform: translateY(-50%)
+      background-color: transparent
+      max-width: 760px
+      width: 100%
+      max-height: 400px
+      height: 100%
+      border-radius: 12px
+      color: #fff
+      padding: 80px 60px
+      overflow: hidden
+      .t-mainPageTitleWrapper
+        margin-bottom: 24px
+        position: relative
+        &:before
+          content: ''
+          position: absolute
+          left: -60px
+          height: 1px
+          width: 48px
+          top: 0
+          bottom: 0
+          margin: auto
+          display: block
+          background-color: #fff
+        & > *
+          font-size: 16px
+          line-height: 21px
+          letter-spacing: 2px
+          text-transform: uppercase
+      .t-mainPageDescriptionWrapper
+        margin-bottom: 48px
+        & > *
+          font-size: 24px
+          line-height: 31px
+          opacity: .88
+        p
+          max-height: 125px
+          overflow: hidden
+          display: -webkit-box
+          -webkit-line-clamp: 4
+          -webkit-box-orient: vertical
+      .t-mainPageMore
+        a.t-btn
+          text-decoration: none
+          display: inline-block
+          z-index: 9999
+  .swiper-button-prev
+    left: 48px!important
+    margin-top: 0!important
+    width: 28px!important
+    height: 44px!important
+    background-color: transparent!important
+    border-radius: 0!important
+    box-shadow: none!important
+    &:before
+      transform: none!important
+      background: url("/images/icons/SVG-optim/sliderArrowBigLeft.svg") no-repeat
+  .swiper-button-next
+    border-radius: 0!important
+    box-shadow: none!important
+    right: 48px!important
+    margin-top: 0!important
+    transform: translateY(-50%)
+    width: 28px!important
+    height: 44px!important
+    background-color: transparent!important
+    &:before
+      background: url("/images/icons/SVG-optim/sliderArrowBigRight.svg") no-repeat
+
+.t-blur
+  position: absolute
+  left: 0
+  right: 0
+  bottom: 0
+  top: 0
+  filter: blur(5px)
+  background-color: rgba(37, 116, 207, 0.5)
+  z-index: -1
+
+
+.t-smallDialogWrapper
+  position: fixed
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  z-index: 1000
+  padding: 0 24px
+  overflow-y: auto
+  .t-smallDialogCard
+    z-index: 1001
+    position: relative
+    box-shadow: 0px 4px 16px rgba(37, 116, 207, 0.09), 0px 2px 4px rgba(37, 116, 207, 0.04)
+    background-color: #fff
+    max-width: 456px
+    padding: 24px
+    border-radius: 4px
+    width: 100%
+    height: auto
+    margin: 144px auto 181px auto
+    .t-smallDialogTitleWrapper
+      margin-bottom: 24px
+      & > *
+        color: #2574CF
+        font-size: 24px
+        font-weight: bold
+        line-height: 31px
+    .t-inputsHolderWrapper
+      margin-bottom: 24px
+      .t-inputHolder
+        display: flex
+        flex-direction: column
+        position: relative
+        &:not(:last-child)
+          margin-bottom: 24px
+        label
+          margin-bottom: 16px
+          color: #272727
+          font-size: 18px
+          font-weight: bold
+          line-height: 21px
+        input, textarea
+          border: none
+          background-color: #EBF5FF
+          outline: none
+          height: 48px
+          padding-left: 16px
+          font-size: 18px
+          resize: none
+        textarea
+          padding-top: 16px
+    .t-btnAndAgreement
+      .t-smallDialogSendBtnHolder
+        margin-bottom: 16px
+      .t-smallDialogSendAgreementHolder
+        & > *
+          font-size: 16px
+          line-height: 19px
+          color: #272727
+
+
+
+// 404 error
+
+.t-fullWidthContainer404
+  width: 100%
+  height: 100vh
+  background: url("/images/slides/FirstSlide.jpg") no-repeat center
+  background-size: cover
+  position: relative
+  display: flex
+  align-items: center
+  justify-content: center
+  .t-404BackgroundOverlay
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(37, 116, 207, .70)
+  .t-404Content
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 0 24px
+    .t-404
+      font-size: 112px
+      line-height: 145px
+      color: #fff
+    .t-404Text
+      color: #fff
+      font-size: 24px
+      line-height: 31px
+      margin-bottom: 56px
+
+
+.t-pagination
+  bottom: 48px!important
+  position: absolute
+  z-index: 100
+  display: inline-block
+  left: 50%!important
+  width: auto!important
+  transform: translateX(-50%)
+  .swiper-pagination-bullet
+    width: 24px
+    height: 2px
+    background-color: #E0E0E0
+    border-radius: 0
+    opacity: 1
+    outline: none
+    margin: 0 4px!important
+  .counter
+    display: none!important
+  .swiper-pagination-bullet-active
+    width: 56px
+    height: 2px
+    background-color: #2574CF
+    position: relative
+    cursor: default!important
+    .counter
+      position: absolute
+      left: 0
+      right: 0
+      margin: 0 auto
+      text-align: center
+      color: #E0E0E0
+      top: -24px
+      display: block!important
+      font-size: 12px
+      line-height: 16px
+      opacity: .88
+
+.t-errorBox
+  position: absolute
+  left: 0
+  right: 0
+  text-align: center
+  bottom: -20px
+  span
+    font-size: 14px
+    color: #ff6969
+
+

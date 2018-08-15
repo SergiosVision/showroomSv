@@ -1,0 +1,18 @@
+.t-wrapperNews
+  .t-insideBgHolder
+    background-image: url("/images/insidePageImages/news.jpg")
+  .t-container
+    padding: 0 24px 95px 24px
+    .t-moreBtn
+      margin: 17px auto 0 auto
+    .t-newsCardsHolder
+      display: flex
+      flex-wrap: wrap
+      max-width: 1170px
+      margin: auto
+      .t-newsCard
+        height: 436px
+        box-shadow: 0px 4px 16px rgba(37, 116, 207, 0.09), 0px 2px 4px rgba(37, 116, 207, 0.04)
+        @include bGrid(1, 0)
+        &:not(:last-child)
+          margin-bottom: 48px

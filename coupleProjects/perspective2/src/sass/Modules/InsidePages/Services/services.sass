@@ -1,0 +1,70 @@
+.t-wrapperServices, .t-wrapperServicesInside
+  .t-insideBgHolder
+    background-image: url("/images/insidePageImages/services.jpg")
+  .t-container
+    padding: 0 24px 95px 24px
+    .t-moreBtn
+      margin: 17px auto 0 auto
+    .t-servicesCardsHolder
+      display: flex
+      flex-wrap: wrap
+      .t-servicesCard
+        cursor: pointer
+        height: 435px
+        @include bGrid(2, 2.679%)
+        position: relative
+        .t-servicesCardImgWrapper
+          height: 100%
+          position: relative
+          img
+            width: 100%
+            height: 100%
+            object-fit: cover
+          &:before
+            content: ''
+            position: absolute
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+            width: 100%
+            height: 100%
+            background: linear-gradient(180deg, rgba(27, 27, 27, 0) 39.66%, #1B1B1B 100%)
+        .t-servicesCardInfo
+          position: absolute
+          left: 0
+          bottom: 0
+          right: 0
+          padding: 0 32px 32px 32px
+          .t-servicesCardCategory
+            margin-bottom: 16px
+            & > *
+              font-size: 16px
+              letter-spacing: 0.04em
+              text-transform: uppercase
+              color: #fff
+          .t-servicesCardTitle
+            margin-bottom: 12px
+            max-width: 562px
+            & > *
+              color: #fff
+              font-size: 24px
+              line-height: 28px
+              font-weight: 900
+            h3
+              max-height: 90px
+              overflow: hidden
+              display: -webkit-box
+              -webkit-line-clamp: 3
+              -webkit-box-orient: vertical
+          .t-servicesCardReadMore
+            svg
+              margin-right: 8px
+              path
+                stroke: #fff
+            span
+              font-size: 16px
+              line-height: 21px
+              color: #fff
+
+
