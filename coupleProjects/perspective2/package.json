@@ -1,9 +1,9 @@
 {
-  "name": "guber",
-  "description": "A Vue.js project",
+  "name": "Perspective Service",
+  "description": "Perspective Service",
   "version": "1.0.0",
   "author": "SergiosVision",
-  "license": "MIT",
+  "license": "ISC",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
