@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import axios from 'axios';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { createPost } from "../../actions/postActions";
 
 
 class PostForm extends Component {
@@ -7,7 +9,7 @@ class PostForm extends Component {
         super(props);
         this.state = {
             title: '',
-            description: ''
+            body: ''
         };
 
         this.changeHandler = this.changeHandler.bind(this);
@@ -20,24 +22,17 @@ class PostForm extends Component {
 
     submitHandler(e) {
         e.preventDefault();
-        const { title, description } = this.state;
+        const { title, body } = this.state;
         const post = {
             title,
-            description
+            body
         };
 
-        axios.post('https://jsonplaceholder.typicode.com/posts', {
-            headers: {
-                'content-type': 'application/json'
-            },
-            body: JSON.stringify(post)
-        })
-            .then(res => res.data)
-            .then(data => console.log(data))
+        this.props.createPost(post);
     }
 
     render() {
-        const { title, description } = this.state;
+        const { title, body } = this.state;
         return (
             <div>
                 <h1 className='center'>Submit Form</h1>
@@ -55,11 +50,11 @@ class PostForm extends Component {
                     </div>
                     <div className="row">
                         <div className="input-field col s12">
-                            <input id="description"
+                            <input id="body"
                                    placeholder='Description'
                                    type="text"
                                    className="validate"
-                                   value={description}
+                                   value={body}
                                    onChange={this.changeHandler}/>
                         </div>
                     </div>
@@ -70,4 +65,8 @@ class PostForm extends Component {
     }
 }
 
-export default PostForm;
+PostForm.propTypes = {
+    createPost: PropTypes.func.isRequired,
+};
+
+export default connect(null, { createPost })(PostForm);
