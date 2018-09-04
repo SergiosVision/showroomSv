@@ -19,7 +19,10 @@ export const fetchPosts = () => dispatch => {
         })
         .then(posts => dispatch ({
             type: FETCH_POSTS,
-            payload: posts
+            payload: {
+                posts: posts,
+                loading: false
+            },
         }))
 };
 
@@ -29,7 +32,6 @@ export const createPost = (postData) => dispatch => {
         title: postData.title,
         content: postData.content,
         author: postData.author,
-        categories: ''
     };
     getCollection('posts').dataBase.push(post)
         .then(data => {

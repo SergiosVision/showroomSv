@@ -4,11 +4,12 @@ import { connect } from 'react-redux';
 import { fetchPosts } from "../../actions/postActions";
 
 import Loader from '../../Components/Loader/Loader';
+import NoContent from '../../Components/NoContent/NoContent';
 import Card from '../../Components/Card/Card';
 
 class Posts extends Component {
     componentWillMount() {
-        this.props.fetchPosts();
+        this.props.fetchPosts()
     }
     componentWillReceiveProps(nextProps) {
         const { posts } = this.props;
@@ -17,19 +18,24 @@ class Posts extends Component {
         }
     }
     render() {
-        const { posts } = this.props;
-        const postItems = posts.length ? (
-            posts.map(post => {
+        const { posts, loading } = this.props;
+        let content;
+
+        if (loading) {
+            content = <Loader />;
+        } else if (posts.length === 0) {
+            content = <NoContent word='posts' />
+        } else {
+            content = posts.map(post => {
                 return <Card key={post.id} postData={post} />
             })
-        ) : (
-            <Loader />
-        );
+        }
+
         return (
             <div>
                 <h1 className='center'>Posts</h1>
                 <div className="row">
-                    {postItems}
+                    {content}
                 </div>
             </div>
         );
@@ -43,6 +49,7 @@ Posts.propTypes = {
 };
 
 const mapStateToProps = state => ({
+    loading: state.posts.loading,
     posts: state.posts.items,
     newPost: state.posts.item
 });
