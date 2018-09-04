@@ -5,17 +5,12 @@ import { fetchPosts } from "../../actions/postActions";
 
 import Loader from '../../Components/Loader/Loader';
 import NoContent from '../../Components/NoContent/NoContent';
-import Card from '../../Components/Card/Card';
+import Card from '../DefaultComponents/Card/Card';
 
 class Posts extends Component {
     componentWillMount() {
+        window.scrollTo(0, 0);
         this.props.fetchPosts()
-    }
-    componentWillReceiveProps(nextProps) {
-        const { posts } = this.props;
-        if (nextProps.newPost) {
-            posts.unshift(nextProps.newPost);
-        }
     }
     render() {
         const { posts, loading } = this.props;

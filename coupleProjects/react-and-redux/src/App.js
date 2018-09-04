@@ -1,21 +1,28 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
 
-import Posts from './Components/Posts/Posts';
-import PostForm from './Components/PostForm/PostForm';
+
+import Header from './Components/DefaultComponents/Header/Header';
+import Main from './Components/DefaultComponents/Main/Main';
+import Footer from './Components/DefaultComponents/Footer/Footer';
 
 import store from './store';
 
 class App extends Component {
+  componentWillMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
         <Provider store={store}>
-            <div className="App">
-                <div className="container">
-                    <PostForm />
-                    <Posts />
+            <BrowserRouter>
+                <div className="App">
+                    <Header />
+                    <Main />
+                    <Footer />
                 </div>
-            </div>
+            </BrowserRouter>
         </Provider>
     );
   }

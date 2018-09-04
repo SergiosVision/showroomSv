@@ -24,13 +24,19 @@ class PostForm extends Component {
     submitHandler(e) {
         e.preventDefault();
         const { title, content, author } = this.state;
+        const { history } = this.props;
         const post = {
             title,
             content,
             author
         };
+        history.push('/');
 
         this.props.createPost(post);
+    }
+
+    componentWillMount() {
+        window.scrollTo(0, 0);
     }
 
     render() {

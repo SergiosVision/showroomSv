@@ -1,6 +1,6 @@
 import * as firebase from "firebase";
-
 import { config } from "./keys";
+
 firebase.initializeApp(config);
 
 export const getCollection = (collection) => {
