@@ -10,8 +10,27 @@ class Card extends Component {
                        <div className="card-title">
                            <span>{postData.title}</span>
                        </div>
-                       <p>{postData.body}</p>
+                       <p>{postData.content}</p>
+                       <div className="row">
+                           <div className="col xs6">
+                               <h4>{postData.author}</h4>
+                           </div>
+                           {
+                               !!postData.categories && <div className="col xs6">
+                                   <ul>
+                                       {
+                                           postData.categories.map((item, index) => {
+                                               return (
+                                                   <li key={index}>{item}</li>
+                                               )
+                                           })
+                                       }
+                                   </ul>
+                               </div>
+                           }
+                       </div>
                    </div>
+
                </div>
             </div>
         );

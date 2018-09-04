@@ -9,7 +9,8 @@ class PostForm extends Component {
         super(props);
         this.state = {
             title: '',
-            body: ''
+            content: '',
+            author: ''
         };
 
         this.changeHandler = this.changeHandler.bind(this);
@@ -22,17 +23,18 @@ class PostForm extends Component {
 
     submitHandler(e) {
         e.preventDefault();
-        const { title, body } = this.state;
+        const { title, content, author } = this.state;
         const post = {
             title,
-            body
+            content,
+            author
         };
 
         this.props.createPost(post);
     }
 
     render() {
-        const { title, body } = this.state;
+        const { title, content, author } = this.state;
         return (
             <div>
                 <h1 className='center'>Submit Form</h1>
@@ -50,11 +52,21 @@ class PostForm extends Component {
                     </div>
                     <div className="row">
                         <div className="input-field col s12">
-                            <input id="body"
+                            <input id="content"
                                    placeholder='Description'
                                    type="text"
                                    className="validate"
-                                   value={body}
+                                   value={content}
+                                   onChange={this.changeHandler}/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="input-field col s12">
+                            <input id="author"
+                                   placeholder='Author'
+                                   type="text"
+                                   className="validate"
+                                   value={author}
                                    onChange={this.changeHandler}/>
                         </div>
                     </div>
