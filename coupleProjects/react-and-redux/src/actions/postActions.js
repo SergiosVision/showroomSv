@@ -1,13 +1,13 @@
-import { FETCH_POSTS, NEW_POST } from "./types";
-import { getCollection } from '../config/firebase';
+import { FETCH_POSTS, FETCH_POST, NEW_POST } from "./types";
+import { db } from '../config/firebase';
 
 export const fetchPosts = () => dispatch => {
-    getCollection('posts').dataBaseOnce
+    db('posts').DBRO
         .then(res => res.val())
         .then(data => {
-            let array = [];
+            let posts = [];
             for (let key in data) {
-                array.push({
+                posts.push({
                     id: key,
                     author: data[key].author,
                     categories: data[key].categories,
@@ -15,7 +15,7 @@ export const fetchPosts = () => dispatch => {
                     title: data[key].title,
                 })
             }
-            return array;
+            return posts;
         })
         .then(posts => dispatch ({
             type: FETCH_POSTS,
@@ -26,6 +26,36 @@ export const fetchPosts = () => dispatch => {
         }))
 };
 
+export const fetchSinglePost = (postId) => dispatch => {
+    db('posts').DBRO
+        .then(res => res.val())
+        .then(data => {
+            let posts = [];
+            for (let key in data) {
+                posts.push({
+                    id: key,
+                    author: data[key].author,
+                    categories: data[key].categories,
+                    content: data[key].content,
+                    title: data[key].title,
+                })
+            }
+            return posts;
+        })
+        .then(posts => {
+            return posts.find(post => {
+                return post.id === postId
+            })
+        })
+        .then(singlePost => dispatch ({
+            type: FETCH_POST,
+            payload: {
+                exactPost: singlePost,
+                loading: false
+            }
+        }))
+};
+
 export const createPost = (postData) => dispatch => {
     let key;
     const post = {
@@ -33,7 +63,7 @@ export const createPost = (postData) => dispatch => {
         content: postData.content,
         author: postData.author,
     };
-    getCollection('posts').dataBase.push(post)
+    db('posts').DBR.push(post)
         .then(data => {
             key = data.key;
             return key;

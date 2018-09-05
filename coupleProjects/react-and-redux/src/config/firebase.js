@@ -3,9 +3,9 @@ import { config } from "./keys";
 
 firebase.initializeApp(config);
 
-export const getCollection = (collection) => {
+export const db = (collection) => {
     return {
-        dataBaseOnce: firebase.database().ref(`/${collection}`).once('value'),
-        dataBase: firebase.database().ref(`/${collection}`)
+        DBRO: firebase.database().ref(`/${collection}`).once('value'),
+        DBR: firebase.database().ref(`/${collection}`)
     }
 };

@@ -27,8 +27,10 @@ class Posts extends Component {
         }
 
         return (
-            <div>
-                <h1 className='center'>Posts</h1>
+            <div className='row'>
+                <h1 className='center'>{
+                    loading ? 'Loading...' : 'Posts'
+                }</h1>
                 <div className="row">
                     {content}
                 </div>

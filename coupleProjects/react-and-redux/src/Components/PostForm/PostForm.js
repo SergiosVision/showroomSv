@@ -42,7 +42,7 @@ class PostForm extends Component {
     render() {
         const { title, content, author } = this.state;
         return (
-            <div>
+            <div className='row'>
                 <h1 className='center'>Submit Form</h1>
                 <form onSubmit={this.submitHandler}>
                     <div className="row">
