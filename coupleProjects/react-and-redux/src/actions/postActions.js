@@ -10,7 +10,6 @@ export const fetchPosts = () => dispatch => {
                 posts.push({
                     id: key,
                     author: data[key].author,
-                    categories: data[key].categories,
                     content: data[key].content,
                     title: data[key].title,
                 })
@@ -27,6 +26,13 @@ export const fetchPosts = () => dispatch => {
 };
 
 export const fetchSinglePost = (postId) => dispatch => {
+    dispatch({
+        type: FETCH_POST,
+        payload: {
+            exactPost: {},
+            loading: true
+        }
+    });
     db('posts').DBRO
         .then(res => res.val())
         .then(data => {
@@ -35,7 +41,6 @@ export const fetchSinglePost = (postId) => dispatch => {
                 posts.push({
                     id: key,
                     author: data[key].author,
-                    categories: data[key].categories,
                     content: data[key].content,
                     title: data[key].title,
                 })

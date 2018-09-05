@@ -10,9 +10,6 @@ import Footer from './Components/DefaultComponents/Footer/Footer';
 import store from './store';
 
 class App extends Component {
-  componentWillMount() {
-    window.scrollTo(0, 0);
-  }
   render() {
     return (
         <Provider store={store}>

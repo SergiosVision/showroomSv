@@ -9,7 +9,6 @@ import Card from '../DefaultComponents/Card/Card';
 
 class Posts extends Component {
     componentWillMount() {
-        window.scrollTo(0, 0);
         this.props.fetchPosts()
     }
     render() {
