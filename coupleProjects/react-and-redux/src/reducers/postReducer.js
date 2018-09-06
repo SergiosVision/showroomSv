@@ -3,7 +3,7 @@ import { FETCH_POSTS, FETCH_POST, NEW_POST } from "../actions/types";
 const initialState = {
   items: [],
   item: {},
-  post: {},
+  post: null,
   loading: true,
   loadingSecond: true
 };
@@ -19,7 +19,7 @@ export default (state = initialState, action) => {
         case FETCH_POST:
             return {
                 ...state,
-                post: action.payload.exactPost,
+                post: action.payload.exactPost || false,
                 loadingSecond: action.payload.loading
             };
         case NEW_POST:

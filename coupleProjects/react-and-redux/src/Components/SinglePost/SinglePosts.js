@@ -3,25 +3,38 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { fetchSinglePost } from '../../actions/postActions';
 import Posts from "../Posts/Posts";
+import NoContent from '../../Components/NoContent/NoContent';
 
 import Loader from '../Loader/Loader';
 import Card from '../DefaultComponents/Card/Card';
 
 class SinglePosts extends Component {
     componentWillMount() {
+        const { fetchSinglePost } = this.props;
         let id = this.props.match.params.id;
-        this.props.fetchSinglePost(id)
+        fetchSinglePost(id);
     }
     render() {
         const { post, loading } = this.props;
+        let content;
+        let titleControl;
+
+        if (loading) {
+            titleControl = 'Loading...';
+            content = <Loader />;
+        } else if (post === false) {
+            content = <NoContent message='Page Not Found' redirect={true} />
+        } else {
+            titleControl = post.title;
+            content = <Card postData={post} single={true} />;
+        }
+
         return (
             <div className="row">
-                <h1 className='center'>{
-                    loading ? 'Loading...' : post.title
-                }</h1>
-                {
-                    loading ? <Loader /> : <Card postData={post} single={true} />
-                }
+                <h1 className='center'>
+                    {titleControl}
+                </h1>
+                {content}
             </div>
         );
     }

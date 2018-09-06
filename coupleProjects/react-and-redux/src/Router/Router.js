@@ -12,9 +12,9 @@ class Router extends Component {
         return (
             <Switch>
                 <Route exact path='/' component={Posts} />
-                <Route exact path='/addPost' component={PostForm} />
+                <Route path='/addPost' component={PostForm} />
                 <Route path='/:id' component={SinglePost}/>
-                <Route component={Page404} />
+                <Route path='/pageNotFound' component={Page404} />
             </Switch>
         );
     }

@@ -18,7 +18,7 @@ class Posts extends Component {
         if (loading) {
             content = <Loader />;
         } else if (posts.length === 0) {
-            content = <NoContent word='posts' />
+            content = <NoContent message='No posts yet. :(' />
         } else {
             content = posts.map(post => {
                 return <Card key={post.id} postData={post} />
