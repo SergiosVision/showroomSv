@@ -34,6 +34,11 @@ class PostForm extends Component {
 
         this.props.createPost(post);
     }
+
+    componentWillMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         const { title, content, author } = this.state;
         return (

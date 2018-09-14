@@ -9,6 +9,7 @@ import Card from '../DefaultComponents/Card/Card';
 
 class Posts extends Component {
     componentWillMount() {
+        window.scrollTo(0, 0);
         this.props.fetchPosts()
     }
     render() {
@@ -18,7 +19,7 @@ class Posts extends Component {
         if (loading) {
             content = <Loader />;
         } else if (posts.length === 0) {
-            content = <NoContent message='No posts yet. :(' />
+            content = <NoContent word='posts' />
         } else {
             content = posts.map(post => {
                 return <Card key={post.id} postData={post} />
