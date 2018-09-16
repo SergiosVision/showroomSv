@@ -1,0 +1,990 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Desktop/panel" />
+        <option value="$USER_HOME$/Desktop/fb-react" />
+        <option value="$USER_HOME$/Desktop/vue" />
+        <option value="$USER_HOME$/Desktop/uponFirebase" />
+        <option value="$USER_HOME$/Desktop/contactmanager_redux" />
+        <option value="$USER_HOME$/Desktop/react-and-redux" />
+        <option value="$USER_HOME$/Desktop/react-app-sergios" />
+        <option value="$USER_HOME$/Desktop/sergios-app" />
+        <option value="$USER_HOME$/Desktop/ownVueProject" />
+        <option value="$USER_HOME$/Desktop/cookProject" />
+        <option value="$USER_HOME$/Desktop/cookingTest" />
+        <option value="$USER_HOME$/Desktop/cooking" />
+        <option value="$USER_HOME$/Desktop/vueTest" />
+        <option value="$USER_HOME$/Desktop/Perspective" />
+        <option value="$USER_HOME$/Desktop/fantatic" />
+        <option value="$USER_HOME$/Documents/GitHub/SergiosVision.github.io" />
+        <option value="$USER_HOME$/Desktop/expressApp" />
+        <option value="$USER_HOME$/Desktop/app-react" />
+        <option value="$USER_HOME$/Desktop/CoffeeRun" />
+        <option value="$USER_HOME$/Desktop/blog" />
+        <option value="$USER_HOME$/Desktop/newTest" />
+        <option value="$USER_HOME$/Desktop/test" />
+        <option value="$USER_HOME$/Desktop/scotch-vue-store-master/scotch-vue-store-master" />
+        <option value="$USER_HOME$/Desktop/firebase" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Desktop/panel" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Desktop/panel" />
+    <option name="pid" value="" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1514034707092" />
+              <option name="buildTimestamp" value="1505468204550" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/feedback.php">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.25" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505149151823" />
+              <option name="buildTimestamp" value="1504608610071" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/mail.php">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.25" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505147137502" />
+              <option name="buildTimestamp" value="1504608635800" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/materialize.css">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.25" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505040516688" />
+              <option name="buildTimestamp" value="1504608634724" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/submit.php">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.25" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505073237299" />
+              <option name="buildTimestamp" value="1504608655457" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1519550851923" />
+              <option name="buildTimestamp" value="1505468190118" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/4vk">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1509263461240" />
+              <option name="buildTimestamp" value="1505468171477" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/BitcoinAPI">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1517235905659" />
+              <option name="buildTimestamp" value="1505468162997" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/CoffeeRun">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1527330749356" />
+              <option name="buildTimestamp" value="1505468186557" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/ES6 Lesson Lynda.com">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1528119799406" />
+              <option name="buildTimestamp" value="1505468176864" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/ES6 StarterKIt">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1528383183800" />
+              <option name="buildTimestamp" value="1505468201020" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Express">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1512894578580" />
+              <option name="buildTimestamp" value="1505468196503" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/FantFTP">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1528121418193" />
+              <option name="buildTimestamp" value="1505468176864" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/HorizontalScroll">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1517634534532" />
+              <option name="buildTimestamp" value="1505468201293" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/JsonXhrRequest">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1517065743946" />
+              <option name="buildTimestamp" value="1505468198307" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/MIR">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1522589313305" />
+              <option name="buildTimestamp" value="1505468170581" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/PHPStrom Project">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.25" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1504795496547" />
+              <option name="buildTimestamp" value="1504608658758" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Perspective">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1530547934496" />
+              <option name="buildTimestamp" value="1505468171397" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/React">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1528388568772" />
+              <option name="buildTimestamp" value="1505468190003" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/ReactCount">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1528827051503" />
+              <option name="buildTimestamp" value="1505468208147" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/SVG Without Grumpicon">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1523783113577" />
+              <option name="buildTimestamp" value="1505468208456" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Sergios Theme Powered by Materialize">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.25" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505030263973" />
+              <option name="buildTimestamp" value="1504608621161" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/Sergios Theme Powered by MaterializeCSS">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.25" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505030546032" />
+              <option name="buildTimestamp" value="1504608636539" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/SnowFlakes">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1511448509258" />
+              <option name="buildTimestamp" value="1505468186857" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/SpriteSVGExample">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1518348942492" />
+              <option name="buildTimestamp" value="1505468214635" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/WorkSpace For Sass">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.25" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1504941493954" />
+              <option name="buildTimestamp" value="1504608631804" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/app-react">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1528986822983" />
+              <option name="buildTimestamp" value="1505468198832" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/blog">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1526798542201" />
+              <option name="buildTimestamp" value="1505468179068" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/chatApp">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1513009768300" />
+              <option name="buildTimestamp" value="1505468203808" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/contactmanager_redux">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536513851817" />
+              <option name="buildTimestamp" value="1505468169111" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/cookProject">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1533995840964" />
+              <option name="buildTimestamp" value="1505468178196" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/cooking">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1532799150826" />
+              <option name="buildTimestamp" value="1505468188599" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/cookingTest">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1532892284629" />
+              <option name="buildTimestamp" value="1505468181003" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/dev-book/ottergram">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1507404511152" />
+              <option name="buildTimestamp" value="1505468187252" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/domvas-master">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1525889181865" />
+              <option name="buildTimestamp" value="1505468211387" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/expressApp">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1529081193119" />
+              <option name="buildTimestamp" value="1505468190478" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/fantatic">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1530546040040" />
+              <option name="buildTimestamp" value="1505468171397" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/fantaticOld">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1525245947321" />
+              <option name="buildTimestamp" value="1505468215681" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/fb-react">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-182.4323.44" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537119536272" />
+              <option name="buildTimestamp" value="1535987215283" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/firebase">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1519550870298" />
+              <option name="buildTimestamp" value="1505468190118" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/go">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1532888291391" />
+              <option name="buildTimestamp" value="1505468193471" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/goMobile">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1529841637155" />
+              <option name="buildTimestamp" value="1505468195093" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/goMobileAVue">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1530378205199" />
+              <option name="buildTimestamp" value="1505468182087" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/gulpAndJade">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1506763812816" />
+              <option name="buildTimestamp" value="1505468183988" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/gulpPro">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1507038172325" />
+              <option name="buildTimestamp" value="1505468210215" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/horizontal-scroll">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1517633690990" />
+              <option name="buildTimestamp" value="1505468205300" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/horizontal-scroll-master/horizontal-scroll-master">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1517632411254" />
+              <option name="buildTimestamp" value="1505468182774" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/icon">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1517243598371" />
+              <option name="buildTimestamp" value="1505468205656" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/icons">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1517242166957" />
+              <option name="buildTimestamp" value="1505468191362" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/internews">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1511792020612" />
+              <option name="buildTimestamp" value="1505468209143" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/js">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505633256857" />
+              <option name="buildTimestamp" value="1505468194581" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/jtProject">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1525521573363" />
+              <option name="buildTimestamp" value="1505468163651" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/mir">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1524921920474" />
+              <option name="buildTimestamp" value="1505468177462" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/mongochat-master">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1513001455103" />
+              <option name="buildTimestamp" value="1505468200559" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/ne">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1517653201192" />
+              <option name="buildTimestamp" value="1505468201293" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/new">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1518709501649" />
+              <option name="buildTimestamp" value="1505468160033" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/newProject">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1527333295850" />
+              <option name="buildTimestamp" value="1505468186557" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/newTest">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1526136434482" />
+              <option name="buildTimestamp" value="1505468172131" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/novostroy">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505919780807" />
+              <option name="buildTimestamp" value="1505468218695" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/okvd">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1516808923914" />
+              <option name="buildTimestamp" value="1505468162574" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/ownVueProject">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535293651189" />
+              <option name="buildTimestamp" value="1505468188490" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/panel">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-182.4323.44" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537119585351" />
+              <option name="buildTimestamp" value="1535987215283" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/par">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505645636129" />
+              <option name="buildTimestamp" value="1505468214317" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/proj">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505546997825" />
+              <option name="buildTimestamp" value="1505468193940" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/project">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.25" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505030518269" />
+              <option name="buildTimestamp" value="1504608636539" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/react-and-redux">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1536498488399" />
+              <option name="buildTimestamp" value="1505468164872" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/react-app-sergios">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535984503345" />
+              <option name="buildTimestamp" value="1505468200151" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/rezerv">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1518937906363" />
+              <option name="buildTimestamp" value="1505468214899" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/scotch-vue-store-master/scotch-vue-store-master">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1524398384498" />
+              <option name="buildTimestamp" value="1505468184443" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/sergios-app">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1535747267810" />
+              <option name="buildTimestamp" value="1505468198883" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/svg">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1523783041715" />
+              <option name="buildTimestamp" value="1505468208456" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/test">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1524921580476" />
+              <option name="buildTimestamp" value="1505468196692" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/testFilterung">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1508943981637" />
+              <option name="buildTimestamp" value="1505468189211" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/testSharing">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1511690873088" />
+              <option name="buildTimestamp" value="1505468211009" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/uponFirebase">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-182.4323.44" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537008133910" />
+              <option name="buildTimestamp" value="1535987203294" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/vue">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-182.4323.44" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1537095420203" />
+              <option name="buildTimestamp" value="1535987198762" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/vueTest">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1532526665278" />
+              <option name="buildTimestamp" value="1505468188175" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/waterman">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1516808885938" />
+              <option name="buildTimestamp" value="1505468162574" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/сomparison">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1528289813978" />
+              <option name="buildTimestamp" value="1505468211291" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/GitHub/SergiosVision.github.io">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1529159733566" />
+              <option name="buildTimestamp" value="1505468190908" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/GitHub/SergiosVision.github.io/projects/parallax">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505920905722" />
+              <option name="buildTimestamp" value="1505468203682" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/slider-manager-master/slider-manager-master">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1518371245635" />
+              <option name="buildTimestamp" value="1505468180081" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/SpaFramework">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1512499808931" />
+              <option name="buildTimestamp" value="1505468165980" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="H:/CaliforniaNews">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1508530686480" />
+              <option name="buildTimestamp" value="1505468182379" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="H:/Projects/svg">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.25" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1504970093503" />
+              <option name="buildTimestamp" value="1504608628136" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="H:/internews">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-172.4155.41" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1507903893789" />
+              <option name="buildTimestamp" value="1505468194587" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/Desktop" />
+  </component>
+</application>

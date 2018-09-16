@@ -1,0 +1,32 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="ColorChooser.RecentColors" value="0-0-0-165,,,150-150-150-150,,,16-16-16-255,,,28-28-28-212,,,0-181-255-255,,,62-206-255-134,,,204-204-204-103,,,255-255-255-117,,,255-255-255-109,,,26-26-26-68,,,26-26-26-26,,,26-26-26-36,,,37-116-207-105,,,0-0-0-52,,,25-25-27-245,,,125-93-240-255,,,21-21-21-130,,,33-33-33-190,,,16-16-16-78,,,191-191-191-77" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6212938" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="Darcula.savedEditorTheme" value="_@user_Darcula" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FindSplitterProportion" value="0.2582205" />
+    <property name="OpenOrAttachDialog.OpenMode" value="new" />
+    <property name="PACKAGE_FILTER" value="gulp-autoprefixer&#10;gulp-cache&#10;imagemin-png&#10;gulp-imagemin&#10;del" />
+    <property name="PLUGIN_FILTER" value="react&#10;Babel&#10;vue&#10;less&#10;Liveedit" />
+    <property name="PhpStorm.InitialConfiguration" value="true" />
+    <property name="PhpStorm.dumbRunEnabled" value="true" />
+    <property name="PhpStorm.initialConfigurationShown" value="true" />
+    <property name="WebStorm.enableDefaultTooltipFixes" value="true" />
+    <property name="dir.diff.filter" value="" />
+    <property name="disable.forced.soft.wraps.notification" value="true" />
+    <property name="evlsprt.172" value="15ef11f9dd5" />
+    <property name="evlsprt2.172" value="15ecdfcc234" />
+    <property name="evlsprt3.172" value="17" />
+    <property name="evlsprt3.182" value="18" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Desktop/uponFirebase&#10;C:/Users/Sergios/Desktop/panel&#10;C:/Users/Sergios/Desktop/fb-react/package.json&#10;C:/Users/Sergios/Desktop/fb-react&#10;C:/Users/Sergios/Desktop/contactmanager_redux&#10;C:/Users/Sergios/Desktop/react-and-redux&#10;C:/Users/Sergios/Desktop/react-app-sergios/src&#10;C:/Users/Sergios/Desktop/react-app-sergios&#10;C:/Users/Sergios/Desktop/sergios-app&#10;C:/Users/Sergios/Desktop/cookProject&#10;C:/Users/Sergios/Desktop/go&#10;C:/Users/Sergios/Desktop/cookingTest&#10;C:/Users/Sergios/Desktop/vueTest&#10;C:/Users/Sergios/Desktop/cooking&#10;C:/Users/Sergios/Desktop/ownVueProject&#10;C:/Users/Sergios/Desktop/goMobileAVue&#10;C:/Users/Sergios/Desktop/goMobile&#10;C:/Users/Sergios/Documents/GitHub/SergiosVision.github.io&#10;C:/Users/Sergios/Desktop/Perspective&#10;C:/Users/Sergios/Desktop/expressApp&#10;C:/Users/Sergios/Desktop/ReactCount&#10;C:/Users/Sergios/Desktop/app-react&#10;C:/Users/Sergios/Desktop/React&#10;C:/Users/Sergios/Desktop/ES6 StarterKIt&#10;C:/Users/Sergios/Desktop/сomparison&#10;C:/Users/Sergios/Desktop/FantFTP&#10;C:/Users/Sergios/Desktop/ES6 Lesson Lynda.com&#10;C:/Users/Sergios/Desktop/newProject&#10;C:/Users/Sergios/Desktop/fantatic&#10;C:/Users/Sergios/Desktop/vue" />
+    <property name="file.gist.reindex.count" value="89779" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="lastTip" value="85" />
+    <property name="settings.code.style.selected.tab.HTML" value="Other" />
+    <property name="ts.lib.d.ts.version" value="3.0.1" />
+  </component>
+</application>
