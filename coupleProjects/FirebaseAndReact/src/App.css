@@ -1,0 +1,85 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+nav {
+    margin-bottom: 40px;
+}
+
+.profile-items {
+    display: flex;
+    align-items: center;
+}
+
+.profile-items .input-field {
+    margin: 0;
+}
+
+.profile-items .input-field-holder {
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.profile-items .input-field input {
+    margin-bottom: 0;
+}
+
+.profile-items:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.load-photo {
+    margin-top: 30px;
+}
+
+.img-col {
+    width: 137px;
+    height: 137px;
+    overflow: hidden;
+}
+
+.img-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.no-img {
+    height: 100%;
+}
+
+.file-field-wrapper {
+    margin: 0 !important;
+}
+
+.fileupload-picker {
+    position: relative;
+    height: 32.4px !important;
+    line-height: 32.4px !important;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid #5d4037;
+    background-color: #5d4037;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #5d4037;
+    box-shadow: 0 1px 0 0 #5d4037;
+}
+
+.up-balance {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.up-balance-balance {
+    margin-left: 5px;
+}
+
+.balance-form-wrapper {
+    display: flex;
+    align-items: center;
+}
