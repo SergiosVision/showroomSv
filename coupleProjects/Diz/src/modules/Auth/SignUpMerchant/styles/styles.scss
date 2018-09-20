@@ -1,0 +1,52 @@
+@import "~common/styles/common/_variables";
+@import "~common/styles/common/_mixins";
+
+
+.box-wrapper {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 0;
+  }
+
+  .custom-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border-radius: 2px;
+    border: solid 1px $dark-gray;
+
+    &:after {
+      position: absolute;
+      display: none;
+      content: "";
+      left: 5px;
+      top: -1px;
+      width: 6px;
+      height: 14px;
+      border: solid $companyGreen;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+  }
+
+  input:checked ~ .custom-box:after {
+    display: block;
+  }
+}
+
+.privacy-policy {
+  line-height: 1.38;
+  letter-spacing: 0.2px
+}

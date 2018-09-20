@@ -1,0 +1,31 @@
+@import "~common/styles/common/_mixins";
+@import "~common/styles/common/_variables";
+
+.button {
+  background: $companyGreen;
+  color: $white;
+  font-size: 16px;
+  padding: 9px 25px 9px;
+  font-weight: normal;
+  text-transform: capitalize;
+  border-radius: 20px;
+
+  &:focus, &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &.fixedWidth {
+    width: 150px;
+    padding: 9px 12px;
+  }
+
+  &.cancel {
+    color: $companyGreen;
+    background-color: $white;
+    border: 1px solid $companyGreen;
+  }
+}

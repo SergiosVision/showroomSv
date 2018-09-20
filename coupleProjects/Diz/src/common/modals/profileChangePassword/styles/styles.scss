@@ -1,0 +1,25 @@
+@import "~common/styles/common/_variables";
+
+.block {
+  padding: 20px 0;
+  text-align: center;
+  width: 62%;
+  margin: 0 auto;
+}
+
+.reference {
+  margin: 20px auto 0;
+  background-color: $white;
+  padding: 5px;
+  width: 91%;
+  font-size: $font-size-medium + px;
+  text-transform: capitalize;
+  color: #111;
+}
+
+.close {
+  position: absolute;
+  top: 40px;
+  right: 35px;
+  cursor: pointer;
+}

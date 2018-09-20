@@ -1,0 +1,30 @@
+@import "~common/styles/common/_variables";
+@import "~common/styles/common/_mixins";
+
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #2f2f2f;
+  padding: 40px 0 10px;
+
+  .logo {
+    width: 84px;
+    height: 34px;
+    margin: 0 auto;
+  }
+
+  .copyright {
+    padding: 0 16px;
+
+    span {
+      display: block;
+      color: $superLightBlack;
+      opacity: .59;
+      font-size: 8px;
+      line-height: 1.5;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+/* ===== Font Sizes ===== */
+
+.font-small {
+  font-size: $font-size-small + px !important;
+}
+
+.font-medium {
+  font-size: $font-size-medium + px !important;
+}
+
+.font-big {
+  font-size: $font-size-big + px !important;
+}
+
+/* Variables */
+
+$font-sizes: 12, 16, 20, 24, 30;
+
+/* Classes */
+
+@each $font in $font-sizes {
+  .font-#{$font} {
+    font-size: $font * 1px !important;
+  }
+}
