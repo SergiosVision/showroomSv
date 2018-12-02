@@ -1,0 +1,33 @@
+.holder
+    &:not(:last-child)
+        margin-bottom: 30px !important
+
+    &:hover
+        .custom
+            box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important
+        
+        .title
+            span
+                text-shadow: 0 15px 20px rgba(0,0,0,0.2)
+
+    
+    .custom
+        position: relative !important
+        margin: 0 !important
+        border-radius: 3px !important
+        height: 400px !important
+        display: flex
+        align-items: center
+        justify-content: center
+
+        .title
+            text-align: center
+
+            span
+                display: inline-block
+                pointer-events: none;
+                font-size: 60px
+                line-height: 1
+                font-weight: 700
+                text-transform: uppercase
+                transition: text-shadow .25s

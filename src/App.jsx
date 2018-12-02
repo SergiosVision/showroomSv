@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux'
-import { BrowserRouter } from 'react-router-dom'
-import  store  from 'store'
+import { Router } from 'react-router-dom'
+import  {store, history}  from 'store'
 
 import Layout from 'app/layout/Layout'
 
@@ -9,11 +9,11 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <BrowserRouter>
+        <Router history={history}>
           <div className="App">
             <Layout/>
           </div>
-        </BrowserRouter>
+        </Router>
       </Provider>
     );
   }

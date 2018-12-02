@@ -23,7 +23,7 @@ class AboutContainer extends Component {
   }
 
   retrieve = () => {
-    return axios.get('https://jsonplaceholder.typicode.com/posts')
+    return axios.get('/posts')
       .then(response => response.data)
   }
 }
