@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import { history } from 'store'
 
 import WorkPreviewCard from 'common/components/cards/previewCard/WorkPreviewCard'
 
@@ -16,7 +17,12 @@ class MainPage extends Component {
         <div className='row'>
           {
             works && works.map(item => (
-              <WorkPreviewCard className='col s6' title={item.title} key={item.id}/>
+              <WorkPreviewCard
+               className='col s6'
+               title={item.title}
+               key={item.id}
+               handleClick={() => history.push(`/work/${item.id}`)}
+               />
             ))
           }
         </div>

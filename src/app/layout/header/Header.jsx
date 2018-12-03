@@ -14,7 +14,7 @@ class Header extends Component {
         <nav className='grey darken-4'>
           <div className={cx('container nav-wrapper')}>
             <div className='row'>
-              <div className='col s4'><Link to='/'>SergiosVision</Link></div>
+              <div className='col s4'><Link className={cx('logo')} to='/'>SergiosVision</Link></div>
               <div className='col s4 right'>
                 <ul className='right'>
                   {

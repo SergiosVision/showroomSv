@@ -7,14 +7,15 @@ const cx = require('classnames/bind').bind(styles)
 class WorkPreviewCard extends Component {
   static propTypes = {
     className: PropTypes.string,
-    title: PropTypes.string.isRequired
+    title: PropTypes.string.isRequired,
+    handleClick: PropTypes.func.isRequired
   }
   
   render() {
-    const { className, title } = this.props
+    const { className, title, handleClick } = this.props
 
     return (
-      <div className={cx(className, 'holder')}>
+      <div className={cx(className, 'holder')} onClick={handleClick}>
         <div className={cx('card grey darken-4 z-depth-1', 'custom')}>
           <div className={cx('title')}>
             <span>{title}</span>

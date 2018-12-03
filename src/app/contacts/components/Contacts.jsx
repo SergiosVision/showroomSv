@@ -3,14 +3,14 @@ import styles from '../styles/styles.sass'
 
 const cx = require('classnames/bind').bind(styles)
 
-class About extends Component {
+class Contacts extends Component {
   render() {
     return (
       <div className='container'>
-        <h1>About</h1>
+        <h1>Contacts</h1>
       </div>
     )
   }
 }
 
-export default About
+export default Contacts

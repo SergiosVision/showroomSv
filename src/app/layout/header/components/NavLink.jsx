@@ -5,7 +5,7 @@ import { history } from 'store'
 
 export default class NavLinkComponent extends Component {
   render() {
-    const { label, path } = this.props
+    const { label, path, className } = this.props
 
     return (
         <li className={this.handleActive(path, history.location)}>
@@ -19,5 +19,5 @@ export default class NavLinkComponent extends Component {
 
 NavLinkComponent.propTypes = {
     label: PropTypes.string.isRequired,
-    path: PropTypes.string.isRequired
+    path: PropTypes.string.isRequired,
   }

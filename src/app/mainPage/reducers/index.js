@@ -1,7 +1,8 @@
-import { WORKS_LOADING } from '../actions'
+import { WORKS_LOADING, SINGLE_WORK } from '../actions'
 
 const initialState = {
-    works: []
+    works: [],
+    work: {}
 }
 
 export default (state = initialState, action) => {
@@ -10,6 +11,11 @@ export default (state = initialState, action) => {
             return {
                 ...state,
                 works: action.payload
+            }
+        case SINGLE_WORK:
+            return {
+                ...state,
+                work: action.payload
             }
         default:
             return state

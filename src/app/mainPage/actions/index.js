@@ -6,3 +6,12 @@ export const loadWorks = works => dispatch => {
         payload: works
     })
 }
+
+export const SINGLE_WORK = 'main_page/SINGLE_WORK'
+
+export const singleWork = work => dispatch => {
+    dispatch({
+        type: SINGLE_WORK,
+        payload: work
+    })
+}
