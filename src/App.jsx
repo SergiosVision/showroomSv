@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux'
-import { Router } from 'react-router-dom'
-import  {store, history}  from 'store'
+import { Router, Route, Switch } from 'react-router-dom'
+import  { store, history }  from 'store'
 
-import Layout from 'app/layout/Layout'
+import MainLayout from 'mainLayout/MainLayout'
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
       <Provider store={store}>
         <Router history={history}>
           <div className="App">
-            <Layout/>
+            <MainLayout/>
           </div>
         </Router>
       </Provider>

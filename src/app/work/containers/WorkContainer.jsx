@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { palceholderData } from 'common/utils/placeholderData'
 
-import { singleWork } from 'app/mainPage/actions'
+import { getData } from 'firebaseConfig'
 
+import { getSingleWork, clearSingleWork } from '../actions'
 import Work from '../components/Work'
 
 class WorkContainer extends Component {
@@ -13,10 +13,13 @@ class WorkContainer extends Component {
   }
 
   componentWillMount() {
-    const { singleWork, match, work } = this.props
-    const findExactItem = palceholderData.find(item => item.id === +match.params.id)
+    const { getSingleWork, match } = this.props
+    
+    getData('works').then(response => getSingleWork(response.find(item => item.id === match.params.id)))
+  }
 
-    singleWork(findExactItem)
+  componentWillUnmount() {
+    this.props.clearSingleWork()
   }
 
   render() {
@@ -29,9 +32,9 @@ class WorkContainer extends Component {
 }
 
 const mapStateToProps = state => ({
-  work: state.mainPage.work
+  work: state.singlePage.work
 })
 
 export default connect(
-  mapStateToProps, { singleWork }
+  mapStateToProps, { getSingleWork, clearSingleWork }
 )(WorkContainer)

@@ -14,18 +14,11 @@ class MainPage extends Component {
 
     return (
       <div className='container'>
-        <div className='row'>
-          {
-            works && works.map(item => (
-              <WorkPreviewCard
-               className='col s6'
-               title={item.title}
-               key={item.id}
-               handleClick={() => history.push(`/work/${item.id}`)}
-               />
-            ))
-          }
-        </div>
+        {works ? (<div className='row'>
+            {works.map(item => (
+                <WorkPreviewCard title={item.title} key={item.id} className='col s6'
+                handleClick={() => history.push(`/work/${item.id}`)}/>))}
+            </div>) : <div className='row'>Loading...</div>}
       </div>
     )
   }

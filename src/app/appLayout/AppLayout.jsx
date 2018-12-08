@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
 
-import Header from 'app/layout/header/Header'
 import MainPageContainer from 'app/mainPage/containers/MainPageContainer'
 import WorkContainer from 'app/work/containers/WorkContainer'
 import AboutContainer from 'app/about/containers/AboutContainer'
 import NewsContainer from 'app/news/containers/NewsContainer'
 import ContactsContainer from 'app/contacts/containers/ContactsContainer'
 
-class Layout extends Component {
+import Header from './header/Header'
+
+class AppLayout extends Component {
   render() {
     return (
       <React.Fragment>
@@ -25,4 +26,4 @@ class Layout extends Component {
   }
 }
 
-export default Layout
+export default AppLayout

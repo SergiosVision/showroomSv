@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import { loadWorks } from '../actions'
-import { palceholderData } from 'common/utils/placeholderData'
 
+import { getData } from 'firebaseConfig'
+
+import { getWorks } from '../actions'
 import MainPage from '../components/MainPage'
 
 export class MainPageContainer extends Component {
@@ -12,9 +13,9 @@ export class MainPageContainer extends Component {
   }
 
   componentWillMount() {
-    const { loadWorks } = this.props
+    const { getWorks } = this.props
 
-    loadWorks(palceholderData)
+    getData('works').then(resposne => getWorks(resposne))
   }
 
   render() {
@@ -30,4 +31,4 @@ const mapStateToProps = state => ({
   works: state.mainPage.works
 })
 
-export default connect(mapStateToProps, { loadWorks })(MainPageContainer)
+export default connect(mapStateToProps, { getWorks })(MainPageContainer)

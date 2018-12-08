@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+
 import styles from '../styles/styles.sass'
 
 const cx = require('classnames/bind').bind(styles)
@@ -14,8 +15,10 @@ class Work extends Component {
 
     return (
       <div className='container'>
-        <h1>{work.title}</h1>
-        <p>{work.description}</p>
+        {work ? (<div>
+                  <h1>{work.title}</h1>
+                  <p>{work.description}</p>
+                </div>): <div>Loading...</div>}
       </div>
     )
   }
