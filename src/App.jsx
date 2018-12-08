@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux'
-import { Router, Route, Switch } from 'react-router-dom'
+import { Router } from 'react-router-dom'
 import  { store, history }  from 'store'
 
 import MainLayout from 'mainLayout/MainLayout'

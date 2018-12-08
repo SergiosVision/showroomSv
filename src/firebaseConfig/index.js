@@ -24,3 +24,9 @@ export const getData = (collectionName) => {
         return dataArray
     })
 }
+
+export const signIn = data => firebase.auth().signInWithEmailAndPassword(data.name, data.password)
+
+export const signOut = () => firebase.auth().signOut()
+
+export const Auth = firebase.auth()

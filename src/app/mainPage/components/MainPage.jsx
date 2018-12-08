@@ -1,14 +1,9 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { history } from 'store'
 
 import WorkPreviewCard from 'common/components/cards/previewCard/WorkPreviewCard'
 
 class MainPage extends Component {
-  static propTypes = {
-    works: PropTypes.array.isRequired
-  }
-
   render() {
     const { works } = this.props
 

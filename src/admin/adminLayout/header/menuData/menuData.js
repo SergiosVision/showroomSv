@@ -1,14 +1,14 @@
 export const Menu = [
     {
         label: 'News',
-        path: '/news'
+        path: '/dashboard/news'
     },
     {
         label: 'About',
-        path: '/about'
+        path: '/dashboard/about'
     },
     {
         label: 'Contacts',
-        path: '/contacts'
+        path: '/dashboard/contacts'
     }
 ]
