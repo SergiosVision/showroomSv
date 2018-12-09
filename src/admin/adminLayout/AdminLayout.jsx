@@ -22,7 +22,6 @@ class AdminLayout extends Component {
     return (
       <FbContext.Consumer>
         {({isUserSignedIn}) => {
-          console.log(isUserSignedIn)
           if (isUserSignedIn) {
             return (
               <React.Fragment>
