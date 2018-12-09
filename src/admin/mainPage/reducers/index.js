@@ -1,23 +1,18 @@
-import { WORKS_LOADING, SINGLE_WORK } from '../actions'
+import { handleActions } from 'redux-actions'
+
+import { GET_WORKS } from '../actions'
 
 const initialState = {
-    works: [],
-    work: {}
+    works: []
 }
 
-export default (state = initialState, action) => {
-    switch (action.type) {
-        case WORKS_LOADING:
-            return {
-                ...state,
-                works: action.payload
-            }
-        case SINGLE_WORK:
-            return {
-                ...state,
-                work: action.payload
-            }
-        default:
-            return state
+export const handleGetWorks = (state = initialState, action) => {
+    return {
+        ...state,
+        works: action.payload
     }
 }
+
+export default handleActions({
+    [GET_WORKS]: handleGetWorks
+}, initialState)

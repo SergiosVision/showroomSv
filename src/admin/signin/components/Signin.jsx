@@ -11,7 +11,7 @@ class Signup extends Component {
     return (
       <div className={cx('container', 'custom-container')}>
         <div className='row'>
-            <div className={cx('card col s4 offset-s4 z-depth-3 grey darken-4', 'custom')}>
+            <div className={cx('card col s4 offset-s4 z-depth-3 blue-grey darken-3', 'custom')}>
                 <div className='card-content'>
                     <form onSubmit={onSubmitForm}>
                         <div className='row'>
@@ -26,7 +26,7 @@ class Signup extends Component {
                                  onChange={onChangeEvent} />
                             </div>
                         </div>
-                        <button type='submit' className='btn grey darken-4 z-depth-1'>Submit</button>
+                        <button type='submit' className='btn blue-grey darken-3 z-depth-1'>Submit</button>
                     </form>
                 </div>
             </div>

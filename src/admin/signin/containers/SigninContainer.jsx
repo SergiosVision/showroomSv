@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { history } from 'store'
 
 import { signIn } from 'firebaseConfig'
 
@@ -27,10 +28,10 @@ class SigninContainer extends Component {
         const data = {name, password}
 
         if (name.length !== 0 && password.length !== 0) {
-            signIn(data).then(res => console.log(res))
+            signIn(data).then(res => console.log('Success'))
 
         } else {
-            console.log('Suck Dick !!!')
+            console.log('Fail')
         }
     }
 }

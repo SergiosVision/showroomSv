@@ -12,7 +12,7 @@ class Header extends Component {
   render() {
     return (
       <header className='navbar-fixed'>
-        <nav className='grey darken-4'>
+        <nav className='blue-grey darken-3'>
           <div className={cx('container nav-wrapper')}>
             <div className='row'>
               <div className='col s4'><Link className={cx('logo')} to='/dashboard'>Dashboard</Link></div>

@@ -1,17 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const styles = require('./styles/.module.sass')
+import styles from './styles/.module.sass'
 
 const cx = require('classnames/bind').bind(styles)
 
-interface OwnProps {
-    text?: string
-    disableLoader?: boolean
-    absolute?: boolean
-    absoluteCenter?: boolean
-}
-
-class Loader extends React.Component<OwnProps, {}> {
+class Loader extends Component {
   render() {
     const { text, disableLoader, absolute, absoluteCenter } = this.props
 
