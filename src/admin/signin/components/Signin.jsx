@@ -15,14 +15,14 @@ class Signup extends Component {
                 <div className='card-content'>
                     <form onSubmit={onSubmitForm}>
                         <div className='row'>
-                            <div className="input-field col s12">
-                                <input name='name' placeholder="Name" type="text"
+                            <div className='input-field col s12'>
+                                <input name='name' placeholder='Name' type='text'
                                  onChange={onChangeEvent} />
                             </div>
                         </div>
                         <div className='row'>
-                            <div className="input-field col s12">
-                                <input name='password' placeholder="Password" type="password"
+                            <div className='input-field col s12'>
+                                <input name='password' placeholder='Password' type='password'
                                  onChange={onChangeEvent} />
                             </div>
                         </div>

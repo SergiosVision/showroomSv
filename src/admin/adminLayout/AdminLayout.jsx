@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { history } from 'store'
-import { Switch, Route, Redirect } from 'react-router-dom'
+import { Switch } from 'react-router-dom'
 
-import {FbContext} from 'common/providers/aProvider/Aprovider'
+import { Auth } from 'firebaseConfig'
+
+import { AuthContext } from 'common/providers/authProvider/AuthProvider'
+import ProtectedRoute from 'common/components/protectedRoute/ProtectedRoute'
+import Success from 'common/components/protectedRoute/Success'
+import Fail from 'common/components/protectedRoute/Fail'
 
 import MainPageContainer from 'admin/mainPage/containers/MainPageContainer'
+import NewWorkContainer from 'admin/mainPage/containers/NewWorkContainer'
 import SigninContainer from 'admin/signin/containers/SigninContainer'
 
 import Header from './header/Header'
@@ -20,21 +25,23 @@ class AdminLayout extends Component {
 
   render() {
     return (
-      <FbContext.Consumer>
-        {({isUserSignedIn}) => {
-          if (isUserSignedIn) {
-            return (
-              <React.Fragment>
-                <Header/>
-                <Switch>
-                    <Route exact path={`${this.props.match.path}/`} component={MainPageContainer}/>
-                </Switch>
-              </React.Fragment>
-            )
-          }
-          return <SigninContainer/>
-        }}
-      </FbContext.Consumer>
+      <AuthContext.Consumer>
+        {({authenticated}) => (
+          <React.Fragment>
+            {Auth.currentUser && authenticated && <Header/>}
+            <Switch>
+              <ProtectedRoute exact path={`${this.props.match.path}/`} authenticated={authenticated}>
+                <Success><MainPageContainer/></Success>
+                <Fail><SigninContainer/></Fail>
+              </ProtectedRoute>
+              <ProtectedRoute exact path={`${this.props.match.path}/add`} authenticated={authenticated}>
+                <Success><NewWorkContainer/></Success>
+                <Fail><SigninContainer/></Fail>
+              </ProtectedRoute>
+            </Switch>
+        </React.Fragment>
+        )}
+      </AuthContext.Consumer>
     )
   }
 }

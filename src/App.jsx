@@ -3,20 +3,20 @@ import { Provider } from 'react-redux'
 import { Router } from 'react-router-dom'
 import  { store, history }  from 'store'
 
-import Aprovider from 'common/providers/aProvider/Aprovider'
+import AuthProvider from 'common/providers/authProvider/AuthProvider'
 import MainLayout from 'mainLayout/MainLayout'
 
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <Aprovider>
+        <AuthProvider>
           <Router history={history}>
             <div className="App">
               <MainLayout/>
             </div>
           </Router>
-        </Aprovider>
+        </AuthProvider>
       </Provider>
     );
   }

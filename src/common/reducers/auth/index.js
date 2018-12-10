@@ -1,17 +1,20 @@
 import { handleActions } from 'redux-actions'
 
-import { SET_USER, RESET_USER, SET_LOADING_USER, RESET_LOADING_USER } from '../actions'
+import { 
+    SET_USER, RESET_USER,
+    SET_LOADING_USER, RESET_LOADING_USER 
+} from '../../actions/auth'
 
 const initialState = {
-    user: null,
-    authenticated: false
+    authenticated: false,
+    authStatusReported: false
 }
 
 export const handleSetUser = (state = initialState, action) => {
     return {
         ...state,
-        user: action.payload,
-        authenticated: true,
+        authenticated: action.payload,
+        authStatusReported: true,
         loading: false
     }
 }
@@ -19,8 +22,8 @@ export const handleSetUser = (state = initialState, action) => {
 export const handleResetUser = (state = initialState) => {
     return {
         ...state,
-        user: initialState.user,
-        authenticated: initialState.authenticated
+        authenticated: initialState.authenticated,
+        authStatusReported: initialState.authStatusReported
     }
 }
 
