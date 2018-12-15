@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
+import { compose } from 'redux'
 import { history } from 'store'
 
-import { signIn } from 'firebaseConfig'
+import { firebaseConnect } from 'react-redux-firebase'
 
 import Signin from '../components/Signin';
 
@@ -25,15 +26,13 @@ class SigninContainer extends Component {
         e.preventDefault()
 
         const { name, password } = this.state
-        const data = {name, password}
+        const data = {email: name.trim() , password: password.trim()}
 
-        if (name.length !== 0 && password.length !== 0) {
-            signIn(data).then(res => console.log('Success'))
+        this.props.firebase.login(data)
+            .then(() => console.log('Success'))
+            .catch((error) => console.log(error))
 
-        } else {
-            console.log('Fail')
-        }
     }
 }
 
-export default SigninContainer
+export default compose(firebaseConnect())(SigninContainer)

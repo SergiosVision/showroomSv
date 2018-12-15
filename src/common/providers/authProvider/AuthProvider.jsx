@@ -3,21 +3,13 @@ import { connect } from 'react-redux'
 
 import { store } from 'store'
 
-import { Auth } from 'firebaseConfig'
-
-import { setUser } from 'common/actions/auth'
-
 const defaultAuthContext = {
-    authenticated: store.getState().auth.authenticated,
-    authStatusReported: store.getState().auth.authStatusReported,
+    authenticated: false,
+    authStatusReported: false,
 }
 export const AuthContext = React.createContext(defaultAuthContext)
 
 class AuthProvider extends Component {
-    componentDidMount() {
-        Auth.onAuthStateChanged(user => this.props.setUser(!!user))
-    }
-    
     render() {
         const { authenticated, authStatusReported } = this.props
 
@@ -34,4 +26,4 @@ const mapStateToProps = state => ({
     authStatusReported: state.auth.authStatusReported
 })
 
-export default connect(mapStateToProps, { setUser })(AuthProvider)
+export default connect(mapStateToProps, null)(AuthProvider)

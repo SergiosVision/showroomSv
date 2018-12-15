@@ -1,23 +1,26 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { NavLink } from 'react-router-dom'
 import { history } from 'store'
 
-export default class NavLinkComponent extends Component {
+import styles from './styles/.styles.sass'
+
+const cx = require('classnames/bind').bind(styles)
+
+class NavLinkComponent extends Component {
   render() {
-    const { label, path } = this.props
+    const { label, path, icon, className } = this.props
 
     return (
-        <li className={this.handleActive(path, history.location)}>
-            <NavLink to={path}>{label}</NavLink>
+        <li className={cx(this.handleActive(path, history.location), className, 'link')}>
+            <NavLink to={path}>
+              {icon && <i className={cx('fas', icon)}></i>}
+              {label}
+            </NavLink>
         </li>
     )
   }
 
-  handleActive = (path, location) => location.pathname === path ? 'active' : undefined
+  handleActive = (path, location) => location.pathname === path ? 'active-link' : undefined
 }
 
-NavLinkComponent.propTypes = {
-    label: PropTypes.string.isRequired,
-    path: PropTypes.string.isRequired,
-  }
+export default NavLinkComponent

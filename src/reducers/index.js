@@ -1,17 +1,13 @@
 import { combineReducers } from 'redux'
 import { reducer as formReducer } from 'redux-form'
+import { firebaseReducer } from 'react-redux-firebase';
+import { firestoreReducer } from 'redux-firestore';
 
-import AuthReducer from 'common/reducers/auth'
-
-import MainPageReucer from 'app/mainPage/reducers'
-import SinglePageReucer from 'app/work/reducers'
-
-import MainPageDashboardReducer from 'admin/mainPage/reducers'
+import CheckUserReducer from 'common/reducers/auth'
 
 export default combineReducers({
-    mainPage: MainPageReucer,
-    singlePage: SinglePageReucer,
-    auth: AuthReducer,
-    dashboardWorks: MainPageDashboardReducer,
+    firebase: firebaseReducer,
+    firestore: firestoreReducer,
+    checkUser: CheckUserReducer,
     form: formReducer
 })

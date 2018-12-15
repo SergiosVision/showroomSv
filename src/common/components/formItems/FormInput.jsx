@@ -11,16 +11,17 @@ export default class FormInput extends Component {
     }
     
     render() {
-        const { input, placeholder, type } = this.props
+        const { input, placeholder, type, meta } = this.props
 
         return (
-            <div className='input-field col s12'>
-                <input
-                    {...input}
-                    placeholder={placeholder}
-                    type={type}
-                />
-            </div>
+            <div className={cx('input-field col s12', 'custom')}>
+                    <input
+                        {...input}
+                        placeholder={placeholder}
+                        type={type}
+                    />
+                    {meta.touched && ((meta.error && <div className={cx('error-message')}>{meta.error}</div>))}
+                </div>
         )
     }
 }

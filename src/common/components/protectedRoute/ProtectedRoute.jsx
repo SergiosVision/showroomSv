@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
 
-import { Auth } from 'firebaseConfig'
-
 import Success from './Success'
 import Fail from './Fail'
 
@@ -13,7 +11,7 @@ class ProtectedRoute extends Component {
 
     render() {
         const { path, exact, authenticated } = this.props
-        const current = Auth.currentUser
+        const current = true
 
         return <Route exact={exact} path={path} render={props => 
            (current && authenticated) ? this.renderSuccess(props) : this.renderFail(this.props)} />

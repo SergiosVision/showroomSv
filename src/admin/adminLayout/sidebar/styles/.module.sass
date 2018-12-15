@@ -1,0 +1,62 @@
+.sidebar
+    position: fixed
+    top: 0
+    bottom: 0
+    left: 0
+    display: block
+    z-index: 1
+    width: 260px
+    max-height: 100%
+    height: 100%
+    background-image: url('../../../../common/images/sidebar/sidebar.jpg')
+    background-size: cover
+    background-position: center center
+
+    &:before
+        content: ""
+        display: block
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 0
+        left: 0
+        z-index: 2
+        opacity: 0.7
+        background-image: linear-gradient(to bottom, #b371f0, #5c96ff, #00aeff, #00beee, #24c9d1)
+
+.sidebar-wrapper
+    position: relative
+    max-height: calc(100vh - 75px)
+    min-height: 100%
+    width: 260px
+    z-index: 4
+    padding-bottom: 100px
+
+    .logo
+        text-align: center
+        padding: 15px
+        border-bottom: 2px solid rgba(255, 255, 255, 0.7) 
+
+        a
+            display: inline-block
+            font-size: 2.1em
+            color: #fff
+            font-weight: 900
+
+    .navigation
+        padding: 0 15px
+
+        .link-item
+            &:not(:last-child)
+                margin-bottom: 10px
+
+            a
+                padding: 10px 15px
+                color: #fff
+                border-radius: 6px
+                transition: all 150ms ease-in
+                font-size: 14px
+
+                &:hover
+                    background-color: rgba(255, 255, 255, 0.13)
+                    
