@@ -9,9 +9,7 @@ export class WorksContainer extends Component {
   render() {
     const { works } = this.props
 
-    return (
-      <MainPage works={works}/>
-    )
+    return <MainPage works={works}/>
   }
 }
 

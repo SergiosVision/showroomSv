@@ -1,18 +1,52 @@
 .nav
+    display: block
+    position: relative
     width: 100%
-    padding: 15px 30px
     background-color: #e1f5fe
+    padding: 15px 30px
+    color: #fff
+    z-index: 1
     line-height: normal
     height: auto
-    color: #757575
 
     a
-        color: #757575
+        color: #fff
+
+    &:before
+        content: ""
+        display: block
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 0
+        left: 0
+        background-image: linear-gradient(to right, #b371f0, #5c96ff, #00aeff, #00beee, #24c9d1)
+        z-index: 2
+        opacity: .7
+        
 
 .wrapper
+    position: relative
     display: flex
     justify-content: space-between
     align-items: center
+    z-index: 4
+
+    .left-side
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        .side-item
+            padding: 0 15px
+            cursor: default
+
+            &:first-child
+                padding-left: 0
+
+        .page-name
+            font-size: 18px
+            font-weight: 600
 
     .logout
         cursor: pointer

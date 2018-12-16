@@ -3,6 +3,11 @@ import { history } from 'store'
 
 import Table from 'common/components/table/Table'
 import Column from 'common/components/table/Column'
+import Loader from 'common/components/loader/Loader'
+
+import TopLine from 'admin/common/components/outsidePageLayout/TopLine'
+import OutsidePageLayout from 'admin/common/components/outsidePageLayout/OutsidePageLayout'
+import Button from 'admin/common/components/button/Button'
 
 import styles from '../styles/.styles.sass'
 
@@ -15,12 +20,7 @@ class Works extends Component {
 
     if (works) {
       content = (
-        <React.Fragment>
-          <div className={cx('row', 'buttons-holder')}>
-            <div className={cx('add')}>
-              <button onClick={() => history.push('/dashboard/add')} className='btn blue-grey darken-3 z-depth-1'>Add Work</button>
-            </div>
-          </div>
+        <React.Fragment>	
           <div className='row'>
               <Table rowClass={cx('custom-row')}
                 source={works}>
@@ -32,14 +32,18 @@ class Works extends Component {
         </React.Fragment>
       )
     } else {
-      content = <div>Loading...</div>
+      content = <Loader absoluteCenter/>
     }
     
-
     return (
-      <div className='container'>
-        {content}
-      </div>
+      <React.Fragment>
+        <TopLine>
+              <div className={cx('buttons-holder')}>
+              <Button icon='fa-plus' clickEvent={() => history.push('/dashboard/works/add')}>Add Work</Button>
+              </div>
+            </TopLine>
+        <OutsidePageLayout whitoutTopSpace>{content}</OutsidePageLayout>
+      </React.Fragment>
     )
   }
 

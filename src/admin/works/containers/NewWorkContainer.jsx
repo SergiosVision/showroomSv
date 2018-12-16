@@ -23,7 +23,7 @@ class NewWorkContainer extends Component {
       creation_date: moment(Date.now()).format('DD-MM-YY HH:mm')
     }
 
-    firestore.set({collection: 'works', doc: values.unique_id}, data).then(() => history.push('/dashboard'))
+    firestore.set({collection: 'works', doc: values.unique_id}, data).then(() => history.push('/dashboard/works'))
   }
 }
 

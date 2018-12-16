@@ -3,7 +3,7 @@ import { Link, withRouter } from 'react-router-dom'
 
 import styles from './styles/.module.sass'
 
-import NavLinkComponent from 'common/components/navLink/NavLink'
+import NavLinkComponent from 'admin/common/components/navLink/NavLink'
 
 import { Menu } from './data'
 

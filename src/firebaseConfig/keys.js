@@ -6,3 +6,5 @@ export const config = {
     storageBucket: "sergiosvision-works.appspot.com",
     messagingSenderId: "442965887724"
   }
+
+export const WEATHER_KEY = '83176644370b72563e622ae9d049dce0'
