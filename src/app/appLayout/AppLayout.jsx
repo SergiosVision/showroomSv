@@ -7,6 +7,8 @@ import AboutContainer from 'app/about/containers/AboutContainer'
 import NewsContainer from 'app/news/containers/NewsContainer'
 import ContactsContainer from 'app/contacts/containers/ContactsContainer'
 
+import NotFound from 'common/components/notFound/NotFound'
+
 import Header from './header/Header'
 
 class AppLayout extends Component {
@@ -20,6 +22,7 @@ class AppLayout extends Component {
           <Route exact path='/about' component={AboutContainer}/>
           <Route exact path='/news' component={NewsContainer}/>
           <Route exact path='/contacts' component={ContactsContainer}/>
+          <Route component={NotFound}/>
         </Switch>
       </React.Fragment>
     )

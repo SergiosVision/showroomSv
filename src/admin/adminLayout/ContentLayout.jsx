@@ -10,6 +10,7 @@ import NewWorkContainer from 'admin/works/containers/NewWorkContainer'
 import NewsContainer from 'admin/news/containers/NewsContainer'
 import AboutContainer from 'admin/about/containers/AboutContainer'
 import ContactsContainer from 'admin/contacts/containers/ContactsContainer'
+import NotFound from 'admin/common/components/notFound/NotFound'
 
 import Sidebar from './sidebar/Sidebar'
 import Header from './header/Header'
@@ -30,6 +31,8 @@ export default class componentName extends Component {
                 <Route exact path={`${this.props.match.path}/news`} component={UserIsAuthenticated(NewsContainer)}/>
                 <Route exact path={`${this.props.match.path}/about`} component={UserIsAuthenticated(AboutContainer)}/>
                 <Route exact path={`${this.props.match.path}/contacts`} component={UserIsAuthenticated(ContactsContainer)}/>
+                <Route exact path={`${this.props.match.path}/contacts`} component={UserIsAuthenticated(ContactsContainer)}/>
+                <Route component={UserIsAuthenticated(NotFound)}/>
             </Switch>
         </div>
       </div>
